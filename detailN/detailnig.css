@@ -1,0 +1,586 @@
+@font-face {
+    font-family: 'Yu Mincho';
+    src: url(./font/yumin.woff);
+}
+
+* {
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 0px;
+    color: black;
+    position: relative;
+}
+
+body {
+    background-color: #3F393B;
+}
+
+.header {
+    position: relative;
+    display: flex;
+    justify-content: right;
+    width: 100%;
+
+}
+
+
+.navbar {
+    position: absolute;
+    padding-top: 50px;
+    left: 52px;
+    display: flex;
+
+
+}
+
+
+.navbar_menu {
+    display: flex;
+    padding-right: 32px;
+}
+
+.navbar_menu a {
+    font-family: 'Yu Mincho';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 48px;
+    text-align: right;
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+}
+
+
+
+.navbar_menu::before {
+    content: "";
+    height: 2px;
+    width: 0%;
+    background-color: #FFFFFF;
+    border-radius: 0px;
+    transition: 0.3s;
+    position: absolute;
+    bottom: 0px;
+    padding-left: 0;
+    right: 30%;
+}
+
+.navbar_menu:hover::before {
+    width: 130px
+}
+
+.navbar_submenu {
+    position: absolute;
+    display: none;
+    list-style: none;
+    z-index: 5;
+    top: 50px;
+    border-radius: 10px;
+    padding-left: 0;
+    right: 0px;
+    background-color: rgba(255, 255, 255, 0.3);
+    ;
+    width: 287px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+
+}
+
+.navbar_submenu a {
+    font-family: 'Yu Mincho';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    color: #000000;
+    padding: 7px 0px;
+    text-align: center;
+    display: block;
+}
+
+.navbar_menu:hover .navbar_submenu {
+    z-index: 5;
+    display: block;
+}
+
+.navbar_submenu a:hover {
+    background-color: #f1f1f1;
+    border-radius: 5px;
+
+}
+
+.vl {
+    border-left: 2px solid #FFFFFF;
+    height: 33px;
+    padding-top: 15px;
+}
+
+.homenig {
+    padding-left: 38px;
+    width: 47px;
+    height: 47px;
+}
+
+.topline {
+    width: 50%;
+}
+
+
+
+
+.titlesection {
+    width: 100%;
+    position: relative;
+    justify-content: left;
+
+}
+
+.title {
+    padding-left: 116px;
+    font-family: 'Yu Mincho';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 130px;
+    line-height: 250px;
+
+    color: #FFFFFF;
+}
+
+.korhatsuon {
+
+    padding-left: 116px;
+
+    font-family: 'Yu Mincho';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 48px;
+
+    color: #969695;
+
+}
+
+.oneline {
+
+    padding-top: 160px;
+    text-align: center;
+    font-family: 'Yu Mincho';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 48px;
+
+    color: #FFFFFF;
+}
+
+.logobox {
+    text-align: center;
+    padding-top: 56px;
+}
+
+.logo1 {
+    width: 38px;
+    height: 43px;
+    padding-bottom: 176px;
+
+}
+
+.maintext {
+    position: relative;
+}
+
+
+.textbox1 {
+    position: relative;
+    display: flex;
+
+    height: 770px;
+}
+
+#slider {
+    overflow: hidden;
+    width: 1250px;
+    height: 770px;
+}
+
+.image-box {
+    width: 4650px;
+    height: 770px;
+    display: flex;
+    flex-wrap: nowrap;
+    animation: bannermove 60s linear infinite;
+    /* 흘러가는 속도*/
+}
+
+
+.clone0 {
+    /* left: 1255px; */
+    height: 770px;
+    width: 770px;
+    margin-left: 5px;
+}
+
+.slide1 {
+    /* left: 480px; */
+    height: 770px;
+    width: 770px;
+    margin-left: 5px;
+}
+
+.slide2 {
+    /* left: -290px; */
+    height: 770px;
+    width: 770px;
+    margin-left: 5px;
+}
+
+.slide3 {
+    /* left: -1250px; */
+    height: 770px;
+    width: 770px;
+    margin-left: 5px;
+}
+
+.slide4 {
+    /* left: -2020px; */
+    height: 770px;
+    width: 770px;
+    margin-left: 5px;
+}
+
+.clone5 {
+    /* left: -2795px; */
+    height: 770px;
+    width: 770px;
+    margin-left: 5px;
+}
+
+
+@keyframes bannermove {
+    0% {
+        transform: translate(-66.3%, 0);
+    }
+
+    100% {
+        transform: translate(0%, 0);
+    }
+}
+
+
+
+.paragraph1 {
+    width: 611px;
+    padding-left: 29px;
+    font-family: 'Yu Mincho';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 352.71%;
+    /* or 71px */
+
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+
+.textbox2 {
+    padding-top: 78px;
+    position: relative;
+    display: flex;
+    height: 822px;
+   
+}
+
+.paragraph2 {
+    padding-left: 53px;
+    width: 494px;
+    font-family: 'Yu Mincho';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 352.71%;
+position: absolute;
+right: 1366px;
+    /* text-align: right; */
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+}
+
+.detailpic {
+    position: absolute;
+    right: 0;
+    padding-left: 27px;
+    width: 1346px;
+}
+
+
+.midline {
+    width: 200px;
+    height: 1px;
+    display: block;
+    margin: 0px auto;
+    padding-top: 234px;
+    padding-bottom: 197px;
+}
+
+
+
+.location {
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+
+.googlemap {
+    width: 762px;
+    height: 480px;
+}
+
+
+.mapbox {
+    width: 762px;
+margin: auto;
+    padding-top: 34px;
+
+}
+
+.addressmain {
+
+    text-align: left;
+    font-family: 'Yu Mincho';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    align-items: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.transport {
+    padding-top: 34px;
+
+    text-align: left;
+    font-family: 'Yu Mincho';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+}
+
+.mainhomepage {
+    padding-top: 34px;
+    text-align: left;
+    font-family: 'Yu Mincho';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    align-items: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+}
+
+
+
+
+
+
+.nearplace {position: relative;
+    width: 100%;
+    padding-top: 198px;
+    text-align: center;
+    padding-bottom: 167px;
+
+
+}
+
+.neartitle {
+   
+    font-family: 'Yu Mincho';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.near {height: 96px;
+    display: flex;
+    position: relative;
+    padding-bottom: 85px;
+}
+
+.nearbox {width: 50%;
+display: flex;
+justify-content: flex-end;}
+
+.nearaddress li {   
+    font-family: 'Yu Mincho';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #FFFFFF;
+padding-right: 30px;
+text-align: right;
+}
+
+
+.nearinfo li {font-family: 'Yu Mincho';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #FFFFFF;
+text-align: left;
+}
+
+.nearinfo >li:not(:last-child) {
+    margin-bottom: 48px;
+}
+
+.logo2 {
+    width: 38px;
+    height: 43px;
+   padding-top: 45px;
+   padding-bottom: 153px;
+}
+
+.nearline1 {
+    padding-right: 80px;
+    border-left: 1px solid #FFFFFF;
+    height: 32px;
+
+}
+
+
+
+
+
+
+
+footer {
+    min-width: 1100px;
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    margin-top: 0px;
+    height: 431.61px;
+    width: 100%;
+    background-color: #4B4A57;
+}
+
+
+
+.footer_logo {
+    width: 245px;
+    height: 72px;
+    padding-top: 26px;
+    padding-left: 10%;
+}
+
+.footer_img {
+    width: 175px;
+    height: 408px;
+}
+
+
+.footer_members {
+    position: absolute;
+    display: flex;
+    padding-top: 65px;
+    right: 157px;
+}
+
+.footer_job {
+    padding-right: 24px;
+    font-family: 'Pretendard Variable';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    color: #FFFFFF;
+    line-height: 21px;
+    text-align: right;
+    text-transform: uppercase;
+}
+
+.footer_members ul li {
+    font-family: 'Pretendard Variable';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
+    padding-right: 90px;
+}
+
+.footer_bottom {
+    position: absolute;
+    right: 247px;
+    display: inline-block;
+    text-align: right;
+    align-content: flex-end;
+    padding-top: 281.41px;
+}
+
+
+.contatc {
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 42px;
+    text-align: right;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.footer_email a {
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 160%;
+    color: #ffffff;
+}
+
+.footer_unv {
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 42px;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+
+
+.copyright_text {
+    top: 405.61px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 13px;
+    text-align: right;
+    color: #FFFFFF;
+    opacity: 0.3;
+}
