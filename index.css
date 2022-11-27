@@ -1,0 +1,173 @@
+* {
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 0px;
+    color: black;
+    position: relative;
+}
+
+body {background-color: white;
+}
+
+
+
+header {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    ;
+}
+
+
+
+
+
+
+
+
+.header_img_day {
+    width: 100%;
+}
+
+
+.sec1 {
+    padding-top: 175px;
+}
+
+.text1 {
+    text-align: center;
+    font-family: 'Yu Mincho';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 160%;
+    /* or 48px */
+
+    text-align: center;
+
+    color: #000000;
+}
+
+
+.sec1_logo {
+    width: 38px;
+    height: 43px;
+}
+
+.logo_box {
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    padding-top: 97px;
+}
+
+.text2 {
+    text-align: center;
+    font-family: 'Yu Mincho';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    /* or 32px */
+
+    text-align: center;
+    padding-top: 91px;
+}
+
+
+.daypic_box {
+    display: flex;
+    justify-content: center;
+}
+
+.daypic {
+    width: 818px;
+    height: 818px;
+}
+
+.sec2 {
+    padding-top: 195px;
+    padding-bottom: 195px;
+}
+
+.text3 {
+    font-family: 'Yu Mincho';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 320%;
+    /* or 32px */
+
+    text-align: center;
+
+    color: #000000;
+    padding-top: 195px;
+}
+
+.map {
+    display: flex;
+    justify-content: center;
+    ;
+}
+
+.daymap {
+    width: 1097px;
+    height: 855px;
+}
+
+.sec3 {
+    padding-bottom: 235px;
+    padding-top: 208px;
+
+}
+
+.sec3_logo {width: 31px;
+    height: 42px;}
+
+.text4 {
+    font-family: 'Yu Mincho';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 160%;
+    /* or 48px */
+
+    text-align: center;
+}
+
+
+
+.img_slide {
+    padding-top: 106px;
+    display: flex;
+    justify-content: center;
+    ;
+}
+
+.cardimg {
+    width: 328.84px;
+    height: 328.84px;
+}
+
+.img_slide>li:not(:last-child) {
+    margin-right: 19.15px;
+}
+
+.text5 {
+    position: absolute;
+    display: flex;
+    justify-content: right;
+    font-family: 'Yu Mincho';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;    
+    text-align: right;
+    color: #000000;
+    right: 282px;
+    padding-top: 25px;
+}
+
+
