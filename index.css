@@ -63,6 +63,8 @@ header {
     padding-top: 97px;
 }
 
+
+
 .text2 {
     text-align: center;
     font-family: 'Yu Mincho';
@@ -124,7 +126,8 @@ header {
 }
 
 .sec3_logo {width: 31px;
-    height: 42px;}
+    height: 42px;
+}
 
 .text4 {
     font-family: 'Yu Mincho';
@@ -166,8 +169,28 @@ header {
     line-height: 160%;    
     text-align: right;
     color: #000000;
-    right: 282px;
+    right: 15%;
     padding-top: 25px;
 }
 
 
+.logo_box2 {
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    padding-top: 97px;
+    padding-bottom: 91px;
+}
+
+.slidebox {position: relative;
+}
+
+.swiper-container {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.swiper-button-next {position: absolute;
+right: 10%;}
+.swiper-button-prev {position: absolute;
+left: 10%;}
