@@ -3,8 +3,47 @@
 
     <head>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="indexnig.css">
-        <link rel="stylesheet" href="./nav_mainNig.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <link rel="stylesheet" href="indexnig.css">
+    <link rel="stylesheet" href="nav.css">
+
+    <style>
+        .swiper {
+            width: 70%;
+            height: 70%;
+
+        }
+
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+
+            /* Center slide text vertically */
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+        }
+
+        .swiper-slide img {
+            display: block;
+            width: 100%;
+        height: 100%;
+            object-fit: cover;
+        }
+    </style>
+
         <title>Tra-Dssert</title>
         
     </head>
@@ -182,14 +221,28 @@
         <section class="sec3">
             <div class="text4">夜の甘さめぐり</div>
 
-            <div class="logo_box"><img src="./img.n/logo_small_N2.png" class="sec3_logo"></div>
+            <div class="logo_box2"><img src="./img.n/logo_small_N2.png" class="sec3_logo"></div>
 
-            <ul class="img_slide">
-                <li><a href=""><img src="./img.n/카드뉴스1.png" class="cardimg"></a></li>
-                <li><a href=""><img src="./img.n/카드뉴스2.png" class="cardimg"></a></li>
-                <li><a href=""><img src="./img.n/카드뉴스3.png" class="cardimg"></a></li>
-                <li><a href=""><img src="./img.n/카드뉴스4.png" class="cardimg"></a></li>
-            </ul>
+            <div class="slidebox">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="./middle/middleNimg/1장생.png"></div>
+                        <div class="swiper-slide"><img src="./middle/middleNimg/2바참.png"></div>
+                        <div class="swiper-slide"><img src="./middle/middleNimg/3작.png"></div>
+                        <div class="swiper-slide"><img src="./middle/middleNimg/4조선펍.png"></div>
+                        <div class="swiper-slide"><img src="./middle/middleNimg/온6점5.png"></div>
+                        <div class="swiper-slide"><img src="./middle/middleNimg/6백곰.png"></div>
+                        <div class="swiper-slide"><img src="./middle/middleNimg/7누룩.png"></div>
+                        <div class="swiper-slide"><img src="./middle/middleNimg/8공간뒷.png"></div>
+                        <div class="swiper-slide"><img src="./middle/middleNimg/9도슬박.png"></div>
+                        <div class="swiper-slide"><img src="./middle/middleNimg/10우이락.png"></div>
+                
+                    </div>
+        
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
             <div class="text5"><a href="./middle/middleN.html">より多くの場所を見学</a></div>
         </section>
 
@@ -224,5 +277,22 @@
 
         <!-- <script type="text/javascript" src="test.js"></script> -->
     </body>
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 4,
+            spaceBetween: 30,
+            loop: true,
+            loopFillGroupWithBlank: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
 
 </html>
