@@ -90,7 +90,7 @@
         <div class="textbox1">
             <div id="slider">
                 <div class="swiper mySwiper">
-                    <div class="swiper-wrapper" transition-timing-function: linear !important;>
+                    <div class="swiper-wrapper">
                         <div class="swiper-slide"><img src="./img.d/siru1.png"></div>
                         <div class="swiper-slide"><img src="./img.d/siru2.png"></div>
                         <div class="swiper-slide"><img src="./img.d/siru3.png"></div>
@@ -201,11 +201,16 @@
             slidesPerView: 1.3,
             spaceBetween: 0,
 
-            speed: 11800,
+            speed: 3800,
 
 
             centeredSlides: true,
-            
+            autoplay: {
+                delay: 0,
+
+                reverseDirection: true,
+                disableOnInteraction: false
+            },
             loop: true,   // 슬라이드 반복 여부
             slideToClickedSlide: true,
 
@@ -219,18 +224,6 @@
                 prevEl: ".swiper-button-prev"
             }
         });
-
-        function infinite() {
-    swiper.slideTo(swiper.slides.length);
-    swiper.once('transitionEnd', function(){
-        swiper.slideTo(swiper.params.slidesPerView, 0, false);
-        setTimeout(function () {
-            infinite();    
-        }, 0);
-    });
-}
-infinite();
-
     </script>
 
 
