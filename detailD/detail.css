@@ -294,7 +294,7 @@ text-align: right;
 
 
 .textbox2 {
-    padding-top: 78px;
+    padding-top: 350px;
     position: relative;
     display: flex;
     height: 822px;
@@ -591,3 +591,14 @@ height: 332.58px;
     color: #FFFFFF;
     opacity: 0.3;
 }
+
+.swiper .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    opacity: 1;
+    background: #FFFFFF;
+    ;}
+
+    .swiper-pagination-bullet-active {
+        background-color: #FF782D !important;
+      }
