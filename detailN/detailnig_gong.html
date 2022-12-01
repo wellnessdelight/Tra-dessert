@@ -1,149 +1,217 @@
 <!DOCTYPE html>
 <html lang="ko">
 
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="detailnig.css">
-    <title>Tra-Dssert</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
 
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 
-<body>
-    <div class="header">
-        <nav class="navbar">
-            <li class="navbar_menu"><a href="./middle/middleD.html">昼の甘さめぐり</a>
-                <ul class="navbar_submenu">
-                    <li><a href="../detailN/detailnig_장생건강원.html">長生健康院</a></li>
-                            <li><a href="../detailN/detailnig_BARCHAM.html">BAR CHAM</a></li>
-                            <li><a href="../detailN/detailnig_작.html">酌</a></li>
-                            <li><a href="../detailN/detailnig_조선펍에디.html">朝鮮PUBエディ</a></li>
-                            <li><a href="../detailN/detailnig_온6점5.html">温6.5</a></li>
-                            <li><a href="../detailN/detailnig_백곰막걸리.html">白熊マッコリ</a></li>
-                            <li><a href="../detailN/detailnig_누룩나무.html">麴木</a></li>
-                            <li><a href="../detailN/detailnig_공간뒷동산.html">空間裏山</a></li>
-                            <li><a href="../detailN/detailnig_도슬박.html">DOSEULBAK</a></li>
-                            <li><a href="../detailN/detailnig_우이락.html">雨耳楽</a></li>
+        <link rel="stylesheet" href="detailnig.css">
+        <title>Tra-Dssert</title>
 
-                </ul>
-            </li>
-            <div class="vl"></div>
-            <div><a href="../indexnig.html"><img src="../img/home.png" class="homenig"></a></div>
+        
+    <style>
+        .swiper {
+            width: 100%;
+            height: 100%;
+        }
 
-        </nav>
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
 
-        <img src="./img.d/무늬 밤.png" class="topline">
-    </div>
-    <div class="titlesection">
-        <div class="title">空間裏山</div>
-        <h2 class="korhatsuon">ゴンガン &nbsp; ディッドンサン</h2>
-        <h3 class="oneline">‘曲線の美しさ’</h3>
-        <div class="logobox"><img src="./img.d/상세 로고.png" class="logo1"></div>
-    </div>
+            /* Center slide text vertically */
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+        }
 
+        .swiper-slide img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    </style>
 
+    </head>
 
+    <body>
+        <div class="page">
+        <div class="header">
+            <nav class="navbar">
+                <li class="navbar_menu"><a href="./middle/middleD.html">昼の甘さめぐり</a>
+                    <ul class="navbar_submenu">
+                        <li><a href="../detailN/detailnig_jang.html">長生健康院</a></li>
+                                <li><a href="../detailN/detailnig_BARCHAM.html">BAR CHAM</a></li>
+                                <li><a href="../detailN/detailnig_jak.html">酌</a></li>
+                                <li><a href="../detailN/detailnig_pub.html">朝鮮PUBエディ</a></li>
+                                <li><a href="../detailN/detailnig_on6.html">温6.5</a></li>
+                                <li><a href="../detailN/detailnig_white.html">白熊マッコリ</a></li>
+                                <li><a href="../detailN/detailnig_tree.html">麴木</a></li>
+                                <li><a href="../detailN/detailnig_gong.html">空間裏山</a></li>
+                                <li><a href="../detailN/detailnig_doseulbak.html">DOSEULBAK</a></li>
+                                <li><a href="../detailN/detailnig_rak.html">雨耳楽</a></li>
+    
+                    </ul>
+                </li>
+                <div class="vl"></div>
+                <div class="home"><a href="../indexnig.html">ホーム</a></div>
+    
+            </nav>
+    
+        </div>
+        <img src="./img.d/gong_header.png" class="headerimg">
 
-    <div class="maintext">
-        <div class="textbox1">
-            <div id="slider">
-                <div class="image-box">
-                    <img src="./img.d/공간4.png" class="clone0">
-                    <img src="./img.d/공간1.png" class="slide1">
-                    <img src="./img.d/공간2.png" class="slide2">
-                    <img src="./img.d/공간3.png" class="slide3">
-                    <img src="./img.d/공간4.png" class="slide4">
-                    <img src="./img.d/공간1.png" class="clone5">
+        <div class="titlesection">
+            <h3 class="oneline">‘曲線の美しさ’</h3>
+            <div class="logobox"><img src="./img.d/logo_smallW.png" class="logo1"></div>
+        </div>
+        
+
+        <div class="maintext">
+            <div class="textbox1">
+                <div id="slider">  
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img src="./img.d/gong1.png"></div>
+                            <div class="swiper-slide"><img src="./img.d/gong2.png"></div>
+                            <div class="swiper-slide"><img src="./img.d/gong3.png"></div>
+                            <div class="swiper-slide"><img src="./img.d/gong4.png"></div>
+                        </div>
+                      
+                        <div class="swiper-pagination"></div>
+                    </div>
                 </div>
-            </div>
-            <p class="paragraph1">
-                4号線漢城大入口駅のすぐ前に位置する空間の裏山は、伝統酒に魅了されたデザイナーが作り出したところだ。「空間の裏山」のソン·デヨン代表は、米、麹、水のように味が大根に近い材料で味を作るという点が興味深く、直接酒を作り始めた。また、直接看板とメニューを、そして様々な作家を通じて店固有のグラスと食器を製作し、空間の裏山ならではの特徴を作り出した。
-            </p>
-        </div>
 
-        <div class="textbox2">
-            <p class="paragraph2">
-                酒造りの時に出されるチゲミを活用したおかずから、酒造りの家ならではの魅力も感じられる。（粕:酒を抜いて残ったかす。）楽しい試みが行われる快適な空間、空間の裏山へ一緒に旅立ってみよう。</p>
-            <img src="./img.d/공간본문.png" class="detailpic">
-        </div>
+
+                <p class="paragraph1">
+
+                </p>
+            </div>
+
+            <div class="textbox2">
+                <p class="paragraph2">
+                     </p>
+                <img src="./img.d/gong_main.png" class="detailpic">
+            </div>
 
         <img src="./img.d/중간선.png" class="midline">
 
-        <div class="location">
-
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3161.6069384699413!2d127.00415791516838!3d37.58787237979381!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357cbd3ca9fba401%3A0x8be8df14d9cb4db8!2z6rO16rCEIOuSt-uPmeyCsA!5e0!3m2!1sja!2skr!4v1669474760985!5m2!1sja!2skr" 
-                style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+            <div class="location">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3161.606938469935!2d127.00415791495699!3d37.58787237979398!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357cbd3ca9fba401%3A0x8be8df14d9cb4db8!2z6rO16rCEIOuSt-uPmeyCsA!5e0!3m2!1sja!2skr!4v1669806686165!5m2!1sja!2skr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
                 class="googlemap"></iframe>
-            <div class="mapbox">
-                <p class="addressmain">住所 : ソウル城北区三線橋路2ギル3</p>
-                <p class="transport">最寄りの地下鉄駅 : 漢城大入口(ハンソンデイプク)駅(徒歩1分)</p>
-                <p class="mainhomepage">ホームページ : instagram.com/duidongsan_our/</p>
-            </div>
-        </div>
-
-
-        <div class="nearplace">
-            <p class="neartitle">近くの観光地</p>
-            <img src="../img.n/logo_small_N2.png" class="logo2">
-            <ul class="near">
-                <div class="nearbox">
-                    <ul class="nearaddress">
-                        <li>ナクサン・ゴンウォン</li>
-                    </ul>
+                
+                <div class="mapbox">
+                    <p class="addressmain">住所 : ソウル城北区三線橋路2ギル3</p>
+                    <p class="transport">最寄りの地下鉄駅 : 漢城大入口(ハンソンデイプク)駅(徒歩1分)</p>
+                    <p class="mainhomepage">ホームページ : instagram.com/duidongsan_our/</p>
                 </div>
-                <div class="nearline1"></div>
+            </div>
 
-                <ul class="nearinfo">
-                    <li>住所 : ソウル鍾路区洛山キル41</li>
-                    <li>ホームページ : -</li>
-                </ul>
-            </ul>
+            <div class="nearplace">
+                <p class="neartitle">近くの観光地</p>
+                <img src="./img.d/logo_smallW.png" class="logo2">
+                <ul class="near">
+                    <div class="nearbox">
+                        <ul class="nearaddress">
+                            <li>ナクサン・ゴンウォン</li>
+                        </ul>
+                    </div>
+                    <div class="nearline1"></div>
 
-            <ul class="near">
-                <div class="nearbox">
-                    <ul class="nearaddress">
-                        <li>城北洞ヌードル通り</li>
+                    <ul class="nearinfo">
+                        <li>住所 : ソウル鍾路区洛山キル41</li>
+                        <li>ホームページ : -</li>
                     </ul>
+                </ul>
+
+                <ul class="near">
+                    <div class="nearbox">
+                        <ul class="nearaddress">
+                            <li>城北洞ヌードル通り</li>
+                        </ul>
+                    </div>
+                    <div class="nearline1"></div>
+
+                    <ul class="nearinfo">
+                        <li>住所 : ソウル城北区城北洞</li>
+                        <li>ホームページ : -</li>
+                    </ul>
+                </ul>
+            </div>
+
+            <footer>
+                <div class="footer_logo">
+                    <img src="../img.n/footer_logo.png" class="footer_img"></a>
                 </div>
-                <div class="nearline1"></div>
-
-                <ul class="nearinfo">
-                    <li>住所 : ソウル城北区城北洞</li>
-                    <li>ホームページ : -</li>
+                <ul class="footer_members">
+                    <li class="footer_job">PROJECT MANAGER & DESIGN</li>
+                    <ul>
+                        <li>Shim Dabi</li>
+                    </ul>
+                    <li class="footer_job">DESIGN</li>
+                    <ul>
+                        <li>Woo Youngrim</li>
+                    </ul>
+                    <li class="footer_job">PRODUCTION</li>
+                    <ul>
+                        <li>Kim Seyeong</li>
+                        <li>Kim Hongseok</li>
+                    </ul>
                 </ul>
-            </ul>
+                <div class="footer_bottom">
+                    <div class="contatc"></a>contact us</div>
+                    <span class="footer_email"><a href="mailto:tradessert@gmail.com">tradessert@gmail.com</a></span>
+                    <br><span class="footer_unv">Sangmyung University · Korea & Japan cultural contents · Tra-Dessert team
+                    </span>
+                </div>
+                <div class="copyright_text">Copyright 2022.
+                    Tra-Dessert All rights reserved.
+                </div>
+            </footer>
+
         </div>
-
-        <footer>
-            <div class="footer_logo">
-                <img src="../img.n/footer_logo.png" class="footer_img"></a>
-            </div>
-            <ul class="footer_members">
-                <li class="footer_job">PROJECT MANAGER & DESIGN</li>
-                <ul>
-                    <li>Shim Dabi</li>
-                </ul>
-                <li class="footer_job">DESIGN</li>
-                <ul>
-                    <li>Woo Youngrim</li>
-                </ul>
-                <li class="footer_job">PRODUCTION</li>
-                <ul>
-                    <li>Kim Seyeong</li>
-                    <li>Kim Hongseok</li>
-                </ul>
-            </ul>
-            <div class="footer_bottom">
-                <div class="contatc"></a>contact us</div>
-                <span class="footer_email"><a href="mailto:tradessert@gmail.com">tradessert@gmail.com</a></span>
-                <br><span class="footer_unv">Sangmyung University · Korea & Japan cultural contents · Tra-Dessert team
-                </span>
-            </div>
-            <div class="copyright_text">Copyright 2022.
-                Tra-Dessert All rights reserved.
-            </div>
-        </footer>
-
     </div>
 
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1.3,
+            spaceBetween: 0,
 
-</body>
+            speed: 3800,
+
+
+            centeredSlides: true,
+            autoplay: {
+                delay: 0,
+                reverseDirection: true,
+                disableOnInteraction: false
+            },
+            loop: true,   // 슬라이드 반복 여부
+            slideToClickedSlide: true,
+
+            loopAdditionalSlides: 1,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev"
+            }
+        });
+    </script>
+
+    </body>

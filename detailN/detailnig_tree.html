@@ -3,74 +3,116 @@
 
     <head>
         <meta charset="UTF-8">
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
         <link rel="stylesheet" href="detailnig.css">
         <title>Tra-Dssert</title>
+
+        
+    <style>
+        .swiper {
+            width: 100%;
+            height: 100%;
+        }
+
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+
+            /* Center slide text vertically */
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+        }
+
+        .swiper-slide img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    </style>
+
     </head>
 
     <body>
+        <div class="page">
         <div class="header">
             <nav class="navbar">
                 <li class="navbar_menu"><a href="./middle/middleD.html">昼の甘さめぐり</a>
                     <ul class="navbar_submenu">
-                        <li><a href="../detailN/detailnig_장생건강원.html">長生健康院</a></li>
+                        <li><a href="../detailN/detailnig_jang.html">長生健康院</a></li>
                                 <li><a href="../detailN/detailnig_BARCHAM.html">BAR CHAM</a></li>
-                                <li><a href="../detailN/detailnig_작.html">酌</a></li>
-                                <li><a href="../detailN/detailnig_조선펍에디.html">朝鮮PUBエディ</a></li>
-                                <li><a href="../detailN/detailnig_온6점5.html">温6.5</a></li>
-                                <li><a href="../detailN/detailnig_백곰막걸리.html">白熊マッコリ</a></li>
-                                <li><a href="../detailN/detailnig_누룩나무.html">麴木</a></li>
-                                <li><a href="../detailN/detailnig_공간뒷동산.html">空間裏山</a></li>
-                                <li><a href="../detailN/detailnig_도슬박.html">DOSEULBAK</a></li>
-                                <li><a href="../detailN/detailnig_우이락.html">雨耳楽</a></li>
+                                <li><a href="../detailN/detailnig_jak.html">酌</a></li>
+                                <li><a href="../detailN/detailnig_pub.html">朝鮮PUBエディ</a></li>
+                                <li><a href="../detailN/detailnig_on6.html">温6.5</a></li>
+                                <li><a href="../detailN/detailnig_white.html">白熊マッコリ</a></li>
+                                <li><a href="../detailN/detailnig_tree.html">麴木</a></li>
+                                <li><a href="../detailN/detailnig_gong.html">空間裏山</a></li>
+                                <li><a href="../detailN/detailnig_doseulbak.html">DOSEULBAK</a></li>
+                                <li><a href="../detailN/detailnig_rak.html">雨耳楽</a></li>
     
                     </ul>
                 </li>
                 <div class="vl"></div>
-                <div><a href="../indexnig.html"><img src="../img/home.png" class="homenig"></a></div>
+                <div class="home"><a href="../indexnig.html">ホーム</a></div>
     
             </nav>
     
-            <img src="./img.d/무늬 밤.png" class="topline">
         </div>
-
+        <img src="./img.d/tree_header.png" class="headerimg">
 
         <div class="titlesection">
-            <div class="title">麴木</div>
-            <h2 class="korhatsuon">ヌルクナム</h2>
             <h3 class="oneline">‘狭い路地の中の居心地よさ’</h3>
-            <div class="logobox"><img src="./img.d/상세 로고.png" class="logo1"></div>
+            <div class="logobox"><img src="./img.d/logo_smallW.png" class="logo1"></div>
         </div>
+        
 
         <div class="maintext">
             <div class="textbox1">
                 <div id="slider">  
-                    <div class="image-box">
-                        <img src="./img.d/누룩4.png" class="clone0">
-                        <img src="./img.d/누룩1.png" class="slide1">
-                        <img src="./img.d/누룩2.png" class="slide2">
-                        <img src="./img.d/누룩3.png" class="slide3">
-                        <img src="./img.d/누룩4.png" class="slide4">
-                        <img src="./img.d/누룩1.png" class="clone5">
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img src="./img.d/tree1.png"></div>
+                            <div class="swiper-slide"><img src="./img.d/tree2.png"></div>
+                            <div class="swiper-slide"><img src="./img.d/tree3.png"></div>
+                            <div class="swiper-slide"><img src="./img.d/tree4.png"></div>
+                        </div>
+                      
+                        <div class="swiper-pagination"></div>
                     </div>
                 </div>
+
+
                 <p class="paragraph1">
-                    3号線安国駅のすぐ前の路地に位置する麹木。麹木が位置する仁寺洞は都心の中で古いが貴重な伝統物が交流される空間で、その道を歩くだけで伝統の趣を感じることができる。お店の近くのサムジキルで特別なアイテムを手に入れることができるかもしれないので、一緒に立ち寄ってみることをおすすめする
-                </p>                
-            </div>       
+
+                </p>
+            </div>
 
             <div class="textbox2">
                 <p class="paragraph2">
-                    麹木は秘密のアジトであるかのように訪れるのは少し大変だが、店に到着すれば居心地の良い幸せが始まる。麹木ならではの特別メニューである厚い「チーズジャガイモチヂミ」と様々な韓国酒で一日をゆっくり仕上げてみよう。
-                </p>
-                <img src="./img.d/누룩본문.png" class="detailpic">  
+                     </p>
+                <img src="./img.d/tree_main.png" class="detailpic">
             </div>
-            
-            <img src="./img.d/중간선.png" class="midline">
+
+        <img src="./img.d/중간선.png" class="midline">
 
             <div class="location">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3162.1433513261!2d126.98194321516814!3d37.57524197979629!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca2c2fa5d93df%3A0x9f0b21507c308dc2!2sNoolookNamoo!5e0!3m2!1sja!2skr!4v1669475739610!5m2!1sja!2skr"
-                style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3162.1433513261!2d126.98194321516814!3d37.57524197979629!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca2c2fa5d93df%3A0x9f0b21507c308dc2!2sNoolookNamoo!5e0!3m2!1sja!2skr!4v1669807996928!5m2!1sja!2skr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
                 class="googlemap"></iframe>
+                
                 <div class="mapbox">
                     <p class="addressmain">住所 : ソウル鍾路区仁寺洞16キル13</p>
                     <p class="transport">最寄りの地下鉄駅 : 安国(アングク)駅(徒歩1分)</p>
@@ -78,68 +120,96 @@
                 </div>
             </div>
 
-        <div class="nearplace">
-            <p class="neartitle">近くの観光地</p>
-            <img src="./img.d/상세 로고.png" class="logo2">
+            <div class="nearplace">
+                <p class="neartitle">近くの観光地</p>
+                <img src="./img.d/logo_smallW.png" class="logo2">
+                <ul class="near">
+                    <div class="nearbox">
+                        <ul class="nearaddress">
+                            <li>サムジキル</li>
+                        </ul>
+                    </div>
+                    <div class="nearline1"></div>
 
-            <ul class="near">
-                <div class="nearbox">
-                    <ul class="nearaddress">
-                        <li>サムジキル</li>
+                    <ul class="nearinfo">
+                        <li>住所 : ソウル鍾路区仁寺洞キル44サムジキル</li>
+                        <li>ホームページ : https://smartstore.naver.com/ssamzigil</li>
                     </ul>
-                </div>
-                <div class="nearline1"></div>
-
-                <ul class="nearinfo">
-                    <li>住所 : ソウル鍾路区仁寺洞キル44サムジキル</li>
-                    <li>ホームページ : https://smartstore.naver.com/ssamzigil</li>
                 </ul>
-            </ul>    
-            
-            <ul class="near">
-                <div class="nearbox">
-                    <ul class="nearaddress">
-                        <li>曹渓寺</li>
+
+                <ul class="near">
+                    <div class="nearbox">
+                        <ul class="nearaddress">
+                            <li>曹渓寺</li>
+                        </ul>
+                    </div>
+                    <div class="nearline1"></div>
+
+                    <ul class="nearinfo">
+                        <li>住所 : ソウル鍾路区郵政局路55</li>
+                        <li>ホームページ : https://www.jogyesa.kr/</li>
                     </ul>
+                </ul>
+            </div>
+
+            <footer>
+                <div class="footer_logo">
+                    <img src="../img.n/footer_logo.png" class="footer_img"></a>
                 </div>
-                <div class="nearline1"></div>
-
-                <ul class="nearinfo">
-                    <li>住所 : ソウル鍾路区郵政局路55</li>
-                    <li>ホームページ : https://www.jogyesa.kr/</li>
+                <ul class="footer_members">
+                    <li class="footer_job">PROJECT MANAGER & DESIGN</li>
+                    <ul>
+                        <li>Shim Dabi</li>
+                    </ul>
+                    <li class="footer_job">DESIGN</li>
+                    <ul>
+                        <li>Woo Youngrim</li>
+                    </ul>
+                    <li class="footer_job">PRODUCTION</li>
+                    <ul>
+                        <li>Kim Seyeong</li>
+                        <li>Kim Hongseok</li>
+                    </ul>
                 </ul>
-            </ul>            
-        </div>
-        
-        <footer>
-            <div class="footer_logo">
-                <img src="../img.n/footer_logo.png" class="footer_img"></a>
-            </div>
-            <ul class="footer_members">
-                <li class="footer_job">PROJECT MANAGER & DESIGN</li>
-                <ul>
-                    <li>Shim Dabi</li>
-                </ul>
-                <li class="footer_job">DESIGN</li>
-                <ul>
-                    <li>Woo Youngrim</li>
-                </ul>
-                <li class="footer_job">PRODUCTION</li>
-                <ul>
-                    <li>Kim Seyeong</li>
-                    <li>Kim Hongseok</li>
-                </ul>
-            </ul>
-            <div class="footer_bottom">
-                <div class="contatc"></a>contact us</div>
-                <span class="footer_email"><a href="mailto:tradessert@gmail.com">tradessert@gmail.com</a></span>
-                <br><span class="footer_unv">Sangmyung University · Korea & Japan cultural contents · Tra-Dessert team
-                </span>
-            </div>
-            <div class="copyright_text">Copyright 2022.
-                Tra-Dessert All rights reserved.
-            </div>
-        </footer>
+                <div class="footer_bottom">
+                    <div class="contatc"></a>contact us</div>
+                    <span class="footer_email"><a href="mailto:tradessert@gmail.com">tradessert@gmail.com</a></span>
+                    <br><span class="footer_unv">Sangmyung University · Korea & Japan cultural contents · Tra-Dessert team
+                    </span>
+                </div>
+                <div class="copyright_text">Copyright 2022.
+                    Tra-Dessert All rights reserved.
+                </div>
+            </footer>
 
         </div>
-    </body>
+    </div>
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1.3,
+            spaceBetween: 0,
+
+            speed: 3800,
+
+
+            centeredSlides: true,
+            autoplay: {
+                delay: 0,
+                reverseDirection: true,
+                disableOnInteraction: false
+            },
+            loop: true,   // 슬라이드 반복 여부
+            slideToClickedSlide: true,
+
+            loopAdditionalSlides: 1,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev"
+            }
+        });
+    </script>

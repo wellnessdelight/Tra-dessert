@@ -3,69 +3,116 @@
 
     <head>
         <meta charset="UTF-8">
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
         <link rel="stylesheet" href="detailnig.css">
         <title>Tra-Dssert</title>
+
+        
+    <style>
+        .swiper {
+            width: 100%;
+            height: 100%;
+        }
+
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+
+            /* Center slide text vertically */
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+        }
+
+        .swiper-slide img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    </style>
+
     </head>
 
     <body>
-
+        <div class="page">
         <div class="header">
             <nav class="navbar">
                 <li class="navbar_menu"><a href="./middle/middleD.html">昼の甘さめぐり</a>
                     <ul class="navbar_submenu">
-                        <li><a href="../detailN/detailnig_장생건강원.html">長生健康院</a></li>
+                        <li><a href="../detailN/detailnig_jang.html">長生健康院</a></li>
                                 <li><a href="../detailN/detailnig_BARCHAM.html">BAR CHAM</a></li>
-                                <li><a href="../detailN/detailnig_작.html">酌</a></li>
-                                <li><a href="../detailN/detailnig_조선펍에디.html">朝鮮PUBエディ</a></li>
-                                <li><a href="../detailN/detailnig_온6점5.html">温6.5</a></li>
-                                <li><a href="../detailN/detailnig_백곰막걸리.html">白熊マッコリ</a></li>
-                                <li><a href="../detailN/detailnig_누룩나무.html">麴木</a></li>
-                                <li><a href="../detailN/detailnig_공간뒷동산.html">空間裏山</a></li>
-                                <li><a href="../detailN/detailnig_도슬박.html">DOSEULBAK</a></li>
-                                <li><a href="../detailN/detailnig_우이락.html">雨耳楽</a></li>
+                                <li><a href="../detailN/detailnig_jak.html">酌</a></li>
+                                <li><a href="../detailN/detailnig_pub.html">朝鮮PUBエディ</a></li>
+                                <li><a href="../detailN/detailnig_on6.html">温6.5</a></li>
+                                <li><a href="../detailN/detailnig_white.html">白熊マッコリ</a></li>
+                                <li><a href="../detailN/detailnig_tree.html">麴木</a></li>
+                                <li><a href="../detailN/detailnig_gong.html">空間裏山</a></li>
+                                <li><a href="../detailN/detailnig_doseulbak.html">DOSEULBAK</a></li>
+                                <li><a href="../detailN/detailnig_rak.html">雨耳楽</a></li>
     
                     </ul>
                 </li>
                 <div class="vl"></div>
-                <div><a href="../indexnig.html"><img src="../img/home.png" class="homenig"></a></div>
+                <div class="home"><a href="../indexnig.html">ホーム</a></div>
     
             </nav>
     
-            <img src="./img.d/무늬 밤.png" class="topline">
         </div>
+        <img src="./img.d/pub_header.png" class="headerimg">
 
         <div class="titlesection">
-            <div class="title">朝鮮PUBエディ</div>
-            <h2 class="korhatsuon">チョウセンパブエディ</h2>
             <h3 class="oneline">‘伝統主義モダンな変身’</h3>
-            <div class="logobox"><img src="./img.d/상세 로고.png" class="logo1"></div>
+            <div class="logobox"><img src="./img.d/logo_smallW.png" class="logo1"></div>
         </div>
         
+
         <div class="maintext">
             <div class="textbox1">
                 <div id="slider">  
-                    <div class="image-box">
-                        <img src="./img.d/조선4.png" class="clone0">
-                        <img src="./img.d/조선1.png" class="slide1">
-                        <img src="./img.d/조선2.png" class="slide2">
-                        <img src="./img.d/조선3.png" class="slide3">
-                        <img src="./img.d/조선4.png" class="slide4">
-                        <img src="./img.d/조선1.png" class="clone5">
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img src="./img.d/pub1.png"></div>
+                            <div class="swiper-slide"><img src="./img.d/pub2.png"></div>
+                            <div class="swiper-slide"><img src="./img.d/pub3.png"></div>
+                            <div class="swiper-slide"><img src="./img.d/pub4.png"></div>
+                        </div>
+                      
+                        <div class="swiper-pagination"></div>
                     </div>
-                </div>   
-                <p class="paragraph1">シャロスキルに位置する居酒屋で、伝統的な韓屋デザインの空間と'ヒップ'なデザインの空間が調和した店舗である。 焼酎、ビール、伝統酒、カクテル、ワインなど様々な種類のお酒を味わうことができ、プルコギ鍋、キムチチーズチヂミなど多様な種類の韓国式おつまみと酒類を一緒に楽しむことができる。 特にお酒の種類は非常に多く、韓国の名人が作った焼酎や地元の蒸留酒も味わえる。 店内は静かで雰囲気の良い空間でデート場所または小規模な集まりを持つのに最適なところだ。</p>
+                </div>
+
+
+                <p class="paragraph1">
+
+                </p>
             </div>
 
             <div class="textbox2">
-                <p class="paragraph2">この場所を訪れるなら、韓国の3大伝統焼酎珍島紅酒で作ったカクテル「真紅ボール」や「朝鮮パブウォールのおすすめセット」がおすすめだ。 普通の焼酎よりは普段見たことのないお酒を飲んでみることをお勧めする。</p>
-                <img src="./img.d/조선본문.png" class="detailpic">
+                <p class="paragraph2">
+                     </p>
+                <img src="./img.d/pub_main.png" class="detailpic">
             </div>
 
-            <img src="./img.d/중간선.png" class="midline">
+        <img src="./img.d/중간선.png" class="midline">
 
             <div class="location">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3166.2086402328996!2d126.95109821516515!3d37.47940257981434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357c9fb87c5de25d%3A0x239024c5a613a955!2z7KGw7ISgIFBVQiDsl5DrlJQ!5e0!3m2!1sja!2skr!4v1669480453624!5m2!1sja!2skr" 
-                style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"class="googlemap"></iframe>></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3166.2086402328996!2d126.95109821516515!3d37.47940257981434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357c9fb87c5de25d%3A0x239024c5a613a955!2z7KGw7ISgIFBVQiDsl5DrlJQ!5e0!3m2!1sja!2skr!4v1669807526551!5m2!1sja!2skr"style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                class="googlemap"></iframe>
+                
                 <div class="mapbox">
                     <p class="addressmain">住所 : ソウル特別市冠岳区奉天洞南部循環路224キル31</p>
                     <p class="transport">最寄りの地下鉄駅 : ソウル大学入口駅(徒歩2分)</p>
@@ -75,8 +122,7 @@
 
             <div class="nearplace">
                 <p class="neartitle">近くの観光地</p>
-                <img src="./img.d/상세 로고.png" class="logo2">
-
+                <img src="./img.d/logo_smallW.png" class="logo2">
                 <ul class="near">
                     <div class="nearbox">
                         <ul class="nearaddress">
@@ -105,7 +151,7 @@
                     </ul>
                 </ul>
             </div>
-        
+
             <footer>
                 <div class="footer_logo">
                     <img src="../img.n/footer_logo.png" class="footer_img"></a>
@@ -137,5 +183,35 @@
             </footer>
 
         </div>
+    </div>
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1.3,
+            spaceBetween: 0,
+
+            speed: 3800,
+
+
+            centeredSlides: true,
+            autoplay: {
+                delay: 0,
+                reverseDirection: true,
+                disableOnInteraction: false
+            },
+            loop: true,   // 슬라이드 반복 여부
+            slideToClickedSlide: true,
+
+            loopAdditionalSlides: 1,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev"
+            }
+        });
+    </script>
 
     </body>

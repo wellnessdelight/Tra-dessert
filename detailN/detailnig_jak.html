@@ -3,70 +3,116 @@
 
     <head>
         <meta charset="UTF-8">
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
         <link rel="stylesheet" href="detailnig.css">
         <title>Tra-Dssert</title>
+
+        
+    <style>
+        .swiper {
+            width: 100%;
+            height: 100%;
+        }
+
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+
+            /* Center slide text vertically */
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+        }
+
+        .swiper-slide img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    </style>
+
     </head>
 
     <body>
+        <div class="page">
         <div class="header">
             <nav class="navbar">
                 <li class="navbar_menu"><a href="./middle/middleD.html">昼の甘さめぐり</a>
                     <ul class="navbar_submenu">
-                        <li><a href="../detailN/detailnig_장생건강원.html">長生健康院</a></li>
+                        <li><a href="../detailN/detailnig_jang.html">長生健康院</a></li>
                                 <li><a href="../detailN/detailnig_BARCHAM.html">BAR CHAM</a></li>
-                                <li><a href="../detailN/detailnig_작.html">酌</a></li>
-                                <li><a href="../detailN/detailnig_조선펍에디.html">朝鮮PUBエディ</a></li>
-                                <li><a href="../detailN/detailnig_온6점5.html">温6.5</a></li>
-                                <li><a href="../detailN/detailnig_백곰막걸리.html">白熊マッコリ</a></li>
-                                <li><a href="../detailN/detailnig_누룩나무.html">麴木</a></li>
-                                <li><a href="../detailN/detailnig_공간뒷동산.html">空間裏山</a></li>
-                                <li><a href="../detailN/detailnig_도슬박.html">DOSEULBAK</a></li>
-                                <li><a href="../detailN/detailnig_우이락.html">雨耳楽</a></li>
+                                <li><a href="../detailN/detailnig_jak.html">酌</a></li>
+                                <li><a href="../detailN/detailnig_pub.html">朝鮮PUBエディ</a></li>
+                                <li><a href="../detailN/detailnig_on6.html">温6.5</a></li>
+                                <li><a href="../detailN/detailnig_white.html">白熊マッコリ</a></li>
+                                <li><a href="../detailN/detailnig_tree.html">麴木</a></li>
+                                <li><a href="../detailN/detailnig_gong.html">空間裏山</a></li>
+                                <li><a href="../detailN/detailnig_doseulbak.html">DOSEULBAK</a></li>
+                                <li><a href="../detailN/detailnig_rak.html">雨耳楽</a></li>
     
                     </ul>
                 </li>
                 <div class="vl"></div>
-                <div><a href="../indexnig.html"><img src="../img/home.png" class="homenig"></a></div>
+                <div class="home"><a href="../indexnig.html">ホーム</a></div>
     
             </nav>
     
-            <img src="./img.d/무늬 밤.png" class="topline">
         </div>
+        <img src="./img.d/jak_header.png" class="headerimg">
 
         <div class="titlesection">
-            <div class="title">酌</div>
-            <h2 class="korhatsuon">ジャク</h2>
             <h3 class="oneline">‘愛酒家のための韓国伝統酒一杯’</h3>
-            <div class="logobox"><img src="./img.d/상세 로고.png" class="logo1"></div>
+            <div class="logobox"><img src="./img.d/logo_smallW.png" class="logo1"></div>
         </div>
-
         
 
         <div class="maintext">
             <div class="textbox1">
-                    <div id="slider">  
-                        <div class="image-box">
-                            <img src="./img.d/작4.png" class="clone0">
-                            <img src="./img.d/작1.png" class="slide1">
-                            <img src="./img.d/작2.png" class="slide2">
-                            <img src="./img.d/작3.png" class="slide3">
-                            <img src="./img.d/작4.png" class="slide4">
-                            <img src="./img.d/작1.png" class="clone5">
+                <div id="slider">  
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img src="./img.d/jak1.png"></div>
+                            <div class="swiper-slide"><img src="./img.d/jak2.png"></div>
+                            <div class="swiper-slide"><img src="./img.d/jak3.png"></div>
+                            <div class="swiper-slide"><img src="./img.d/jak4.png"></div>
                         </div>
-                    </div>   
-                <p class="paragraph1">韓国のお酒をカクテルで楽しんだら、これからは本来の味を楽しむ番だ。 江南の真ん中にある江南駅5番出口付近に韓国酒だけを専門に売っているところがある。日本酒とウイスキーが好きな愛酒家なら、韓国の濃い味も感じてみるのが当然。 「ジャク」には安東焼酎のような焼酎はもちろん、40種類余りの伝統蒸留酒を瓶または杯で吟味でき、小穀酒のような薬酒、ビールも販売している。</p>
-            </div>    
+                      
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
 
-            <div class="textbox2">
-                <p class="paragraph2">初めて見るお酒がいっぱいなので、どんなお酒を飲むか悩むなら、慌てずに社長に推薦してもらおう。 3種の酒類が味わえる「ザックサンプラー」を注文するのも良い選択だ。</p>
-                <img src="./img.d/작본문.png" class="detailpic">
+
+                <p class="paragraph1">
+
+                </p>
             </div>
 
-            <img src="./img.d/중간선.png" class="midline">
+            <div class="textbox2">
+                <p class="paragraph2">
+                     </p>
+                <img src="./img.d/jak_main.png" class="detailpic">
+            </div>
+
+        <img src="./img.d/중간선.png" class="midline">
 
             <div class="location">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3165.242754455986!2d127.03401072750857!3d37.502192304504014!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe044cafeb2ea2462!2z7J6R!5e0!3m2!1sko!2skr!4v1669437867020!5m2!1sko!2skr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="googlemap"></iframe>
-                <!-- /*일본 구글에서 안뜸*/ -->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3165.236620297417!2d127.03158211134433!3d37.50233699999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca3fe827b991d%3A0xe044cafeb2ea2462!2sZac!5e0!3m2!1sja!2skr!4v1669806950114!5m2!1sja!2skr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                class="googlemap"></iframe>
+                
                 <div class="mapbox">
                     <p class="addressmain">住所 : ソウル江南区論峴路95ギル14、101号</p>
                     <p class="transport">最寄りの地下鉄駅 : 駅三(ヨクサム)駅(徒歩4分)</p>
@@ -76,7 +122,7 @@
 
             <div class="nearplace">
                 <p class="neartitle">近くの観光地</p>
-                <img src="./img.d/상세 로고.png" class="logo2">
+                <img src="./img.d/logo_smallW.png" class="logo2">
                 <ul class="near">
                     <div class="nearbox">
                         <ul class="nearaddress">
@@ -86,7 +132,7 @@
                     <div class="nearline1"></div>
 
                     <ul class="nearinfo">
-                        <li>ソウル江南区テヘラン路5ギル291、2階</li>
+                        <li>住所 :ソウル江南区テヘラン路5ギル291、2階</li>
                         <li>ホームページ : https://100fnp.modoo.at</li>
                     </ul>
                 </ul>
@@ -105,6 +151,7 @@
                     </ul>
                 </ul>
             </div>
+
             <footer>
                 <div class="footer_logo">
                     <img src="../img.n/footer_logo.png" class="footer_img"></a>
@@ -136,5 +183,35 @@
             </footer>
 
         </div>
+    </div>
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1.3,
+            spaceBetween: 0,
+
+            speed: 3800,
+
+
+            centeredSlides: true,
+            autoplay: {
+                delay: 0,
+                reverseDirection: true,
+                disableOnInteraction: false
+            },
+            loop: true,   // 슬라이드 반복 여부
+            slideToClickedSlide: true,
+
+            loopAdditionalSlides: 1,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev"
+            }
+        });
+    </script>
 
     </body>

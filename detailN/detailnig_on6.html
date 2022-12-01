@@ -3,69 +3,116 @@
 
     <head>
         <meta charset="UTF-8">
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
         <link rel="stylesheet" href="detailnig.css">
         <title>Tra-Dssert</title>
+
+        
+    <style>
+        .swiper {
+            width: 100%;
+            height: 100%;
+        }
+
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+
+            /* Center slide text vertically */
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+        }
+
+        .swiper-slide img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    </style>
+
     </head>
 
     <body>
+        <div class="page">
         <div class="header">
             <nav class="navbar">
                 <li class="navbar_menu"><a href="./middle/middleD.html">昼の甘さめぐり</a>
                     <ul class="navbar_submenu">
-                        <li><a href="../detailN/detailnig_장생건강원.html">長生健康院</a></li>
+                        <li><a href="../detailN/detailnig_jang.html">長生健康院</a></li>
                                 <li><a href="../detailN/detailnig_BARCHAM.html">BAR CHAM</a></li>
-                                <li><a href="../detailN/detailnig_작.html">酌</a></li>
-                                <li><a href="../detailN/detailnig_조선펍에디.html">朝鮮PUBエディ</a></li>
-                                <li><a href="../detailN/detailnig_온6점5.html">温6.5</a></li>
-                                <li><a href="../detailN/detailnig_백곰막걸리.html">白熊マッコリ</a></li>
-                                <li><a href="../detailN/detailnig_누룩나무.html">麴木</a></li>
-                                <li><a href="../detailN/detailnig_공간뒷동산.html">空間裏山</a></li>
-                                <li><a href="../detailN/detailnig_도슬박.html">DOSEULBAK</a></li>
-                                <li><a href="../detailN/detailnig_우이락.html">雨耳楽</a></li>
+                                <li><a href="../detailN/detailnig_jak.html">酌</a></li>
+                                <li><a href="../detailN/detailnig_pub.html">朝鮮PUBエディ</a></li>
+                                <li><a href="../detailN/detailnig_on6.html">温6.5</a></li>
+                                <li><a href="../detailN/detailnig_white.html">白熊マッコリ</a></li>
+                                <li><a href="../detailN/detailnig_tree.html">麴木</a></li>
+                                <li><a href="../detailN/detailnig_gong.html">空間裏山</a></li>
+                                <li><a href="../detailN/detailnig_doseulbak.html">DOSEULBAK</a></li>
+                                <li><a href="../detailN/detailnig_rak.html">雨耳楽</a></li>
     
                     </ul>
                 </li>
                 <div class="vl"></div>
-                <div><a href="../indexnig.html"><img src="../img/home.png" class="homenig"></a></div>
+                <div class="home"><a href="../indexnig.html">ホーム</a></div>
     
             </nav>
     
-            <img src="./img.d/무늬 밤.png" class="topline">
         </div>
-        <div class="titlesection">
-            <div class="title">温6.5</div>
-            <h2 class="korhatsuon">オン6.5</h2>
-            <h3 class="oneline">‘変わったキムチの模索’</h3>
-            <div class="logobox"><img src="./img.d/상세 로고.png" class="logo1"></div>
+        <img src="./img.d/on6_header.png" class="headerimg">
 
+        <div class="titlesection">
+            <h3 class="oneline">‘変わったキムチの模索’</h3>
+            <div class="logobox"><img src="./img.d/logo_smallW.png" class="logo1"></div>
         </div>
+        
 
         <div class="maintext">
             <div class="textbox1">
                 <div id="slider">  
-                    <div class="image-box">
-                        <img src="./img.d/온4.png" class="clone0">
-                        <img src="./img.d/온1.png" class="slide1">
-                        <img src="./img.d/온2.png" class="slide2">
-                        <img src="./img.d/온3.png" class="slide3">
-                        <img src="./img.d/온4.png" class="slide4">
-                        <img src="./img.d/온1.png" class="clone5">
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img src="./img.d/on61.png"></div>
+                            <div class="swiper-slide"><img src="./img.d/on62.png"></div>
+                            <div class="swiper-slide"><img src="./img.d/on63.png"></div>
+                            <div class="swiper-slide"><img src="./img.d/on64.png"></div>
+                        </div>
+                      
+                        <div class="swiper-pagination"></div>
                     </div>
-                </div>   
-                <p class="paragraph1">キムチが一番美味しく煮える温度6.5℃。店の名前にふさわしく、温6.5はユニークなキムチ料理が味わえるワインバーだ。一般的な唐辛子粉が入ったキムチからジャンキムチ、味噌キムチはもちろん、バジルとパクチー、アスパラガスなど異色の材料を活用したキムチ料理がある。ここのシグネチャーメニューは白菜サム。 白菜の中に隠れた豚肉を赤ワインソースと一緒に食べる料理で、その深い風味が絶品です。様々なワインはもちろん、韓国酒まで楽しめる場所で、訪れるとその新鮮さと恍惚とした味に驚くだろう。</p>
+                </div>
+
+
+                <p class="paragraph1">
+
+                </p>
             </div>
 
             <div class="textbox2">
-                
-                <p class="paragraph2">韓国式のおつまみが初めての方には「東海岸イカたっぷりキムチチヂミ」がおすすめ。キムチチヂミのキムチはおかずとして出てくるキムチとは全く違う味なのであまり辛くなく、老若男女楽しめるメニューだ。今夜は韓国の伝統と現代が混ざり合う白熊マッコリに出かけてみてはいかがだろうか。</p>
-                <img src="./img.d/온본문.png" class="detailpic">
+                <p class="paragraph2">
+                     </p>
+                <img src="./img.d/on6_main.png" class="detailpic">
             </div>
 
-            <img src="./img.d/중간선.png" class="midline">
+        <img src="./img.d/중간선.png" class="midline">
 
             <div class="location">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3162.054230220156!2d126.98208801516824!3d37.57734067979582!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca3c586c65efd%3A0xf3795ace06687092!2sOn%206.5!5e0!3m2!1sja!2skr!4v1669478066727!5m2!1sja!2skr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3162.054230220156!2d126.98208801516824!3d37.57734067979582!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca3c586c65efd%3A0xf3795ace06687092!2sOn%206.5!5e0!3m2!1sja!2skr!4v1669807249819!5m2!1sja!2skr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
                 class="googlemap"></iframe>
+                
                 <div class="mapbox">
                     <p class="addressmain">住所 : ソウル鍾路区北村路（チョンノグ·プクチョンロ）1ギル28地上1階オン6.5</p>
                     <p class="transport">最寄りの地下鉄駅 : アングク駅(徒歩1分)</p>
@@ -75,7 +122,7 @@
 
             <div class="nearplace">
                 <p class="neartitle">近くの観光地</p>
-                <img src="./img.d/상세 로고.png" class="logo2">
+                <img src="./img.d/logo_smallW.png" class="logo2">
                 <ul class="near">
                     <div class="nearbox">
                         <ul class="nearaddress">
@@ -104,8 +151,6 @@
                     </ul>
                 </ul>
             </div>
-
-        
 
             <footer>
                 <div class="footer_logo">
@@ -138,4 +183,35 @@
             </footer>
 
         </div>
+    </div>
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1.3,
+            spaceBetween: 0,
+
+            speed: 3800,
+
+
+            centeredSlides: true,
+            autoplay: {
+                delay: 0,
+                reverseDirection: true,
+                disableOnInteraction: false
+            },
+            loop: true,   // 슬라이드 반복 여부
+            slideToClickedSlide: true,
+
+            loopAdditionalSlides: 1,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev"
+            }
+        });
+    </script>
+
     </body>
