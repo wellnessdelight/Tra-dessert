@@ -12,37 +12,50 @@
     color: black;
     position: relative;
 }
-body {background-color: #3F393B;}
 
+body {
+    background-color: #3F393B;
+}
+
+body {
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
 
 .header {
     position: relative;
     display: flex;
     justify-content: left;
     width: 100%;
-    height: 90px;
+    height: 70px;
     background-color: #3F393B;
     align-items: center;
 }
 
-.header a {color: #FFFFFF;}
-
-.home {font-family: 'Yu Mincho';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 48px;
+.header a {
+    color: #FFFFFF;
 }
 
 
 
-.home {font-family: 'Yu Mincho';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 48px;}
 
-.headerimg {width: 100%;}
+
+
+
+.headerimg {
+    width: 100%;
+}
 
 
 .navbar {
@@ -62,12 +75,13 @@ body {background-color: #3F393B;}
     font-family: 'Yu Mincho';
     font-style: normal;
     font-weight: 400;
-    font-size: 30px;
+    font-size: 20px;
     line-height: 48px;
     text-align: right;
     text-transform: capitalize;
 
-    color:#FFFFFF;;
+    color: #FFFFFF;
+    ;
 }
 
 
@@ -82,11 +96,11 @@ body {background-color: #3F393B;}
     position: absolute;
     bottom: 0px;
     padding-left: 0;
-    right: 30%;
+    right: 25%;
 }
 
 .navbar_menu:hover::before {
-    width: 130px
+    width: 120px
 }
 
 .navbar_submenu {
@@ -97,10 +111,10 @@ body {background-color: #3F393B;}
     top: 50px;
     border-radius: 10px;
     padding-left: 0;
-    right: 0px;
-    background-color: rgba(255, 255, 255, 0.7);
+    right: 0;
+    background-color: rgba(63, 57, 59, 0.8);
     ;
-    width: 287px;
+    width: 225px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
 
 }
@@ -109,9 +123,9 @@ body {background-color: #3F393B;}
     font-family: 'Yu Mincho';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 17px;
     line-height: 160%;
-    color: #000000;
+    color: #ffffff;
     padding: 7px 0px;
     text-align: center;
     display: block;
@@ -123,7 +137,7 @@ body {background-color: #3F393B;}
 }
 
 .navbar_submenu a:hover {
-    background-color: #f1f1f1;
+    background-color: rgba(149, 142, 144, 1);
     border-radius: 5px;
 
 }
@@ -135,11 +149,91 @@ body {background-color: #3F393B;}
     padding-left: 35px;
 }
 
-.homenig {
-    padding-left: 38px;
-    width: 47px;
+
+/*요요 */
+
+.home {
+    font-family: 'Yu Mincho';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 48px;
     height: 47px;
 }
+
+
+.home_menu a {
+    font-family: 'Yu Mincho';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 48px;
+    text-align: right;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    ;
+}
+
+
+
+.home_menu::before {
+    content: "";
+    height: 2px;
+    width: 0%;
+    background-color: #FFFFFF;
+    border-radius: 0px;
+    transition: 0.3s;
+    position: absolute;
+    bottom: 0px;
+    padding-left: 0;
+    right: 25%;
+}
+
+.home_menu:hover::before {
+    width: 30px
+}
+
+
+.home_submenu {
+    position: absolute;
+    display: none;
+    list-style: none;
+    z-index: 5;
+    top: 50px;
+    border-radius: 10px;
+    padding-left: 0;
+    right: -30px;
+    background-color: rgba(63, 57, 59, 0.8);
+    ;
+    width: 120px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+
+}
+
+.home_submenu a {
+    font-family: 'Yu Mincho';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 160%;
+    color: #ffffff;
+    padding: 7px 0px;
+    text-align: center;
+    display: block;
+}
+
+.home_menu:hover .home_submenu {
+    z-index: 5;
+    display: block;
+}
+
+.home_submenu a:hover {
+    background-color: rgba(149, 142, 144, 1);
+    border-radius: 5px;
+
+}
+
+/*요요 */
 
 .topline {
     width: 100%;
@@ -152,7 +246,7 @@ body {background-color: #3F393B;}
 .titlesection {
     width: 100%;
     position: relative;
-text-align: right;
+    text-align: right;
 }
 
 
@@ -296,8 +390,8 @@ text-align: right;
     font-weight: 400;
     font-size: 20px;
     line-height: 352.71%;
-position: absolute;
-right: 1105px;
+    position: absolute;
+    right: 1105px;
     /* text-align: right; */
     text-transform: uppercase;
 
@@ -310,7 +404,8 @@ right: 1105px;
     right: 0;
     padding-left: 60px;
     width: 1045px;
-    height: 638px;}
+    height: 638px;
+}
 
 
 .midline {
@@ -339,7 +434,7 @@ right: 1105px;
 
 .mapbox {
     width: 762px;
-margin: auto;
+    margin: auto;
     padding-top: 34px;
 
 }
@@ -393,7 +488,8 @@ margin: auto;
 
 
 
-.nearplace {position: relative;
+.nearplace {
+    position: relative;
     width: 100%;
     padding-top: 198px;
     text-align: center;
@@ -403,7 +499,7 @@ margin: auto;
 }
 
 .neartitle {
-   
+
     font-family: 'Yu Mincho';
     font-style: normal;
     font-weight: 400;
@@ -413,46 +509,50 @@ margin: auto;
     color: #ffffff;
 }
 
-.near {height: 96px;
+.near {
+    height: 96px;
     display: flex;
     position: relative;
     padding-bottom: 85px;
 }
 
-.nearbox {width: 50%;
-display: flex;
-justify-content: flex-end;}
+.nearbox {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
 
-.nearaddress li {   
+.nearaddress li {
     font-family: 'Yu Mincho';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 32px;
     color: #ffffff;
-padding-right: 30px;
-text-align: right;
+    padding-right: 30px;
+    text-align: right;
 }
 
 
-.nearinfo li {font-family: 'Yu Mincho';
+.nearinfo li {
+    font-family: 'Yu Mincho';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 32px;
     color: #ffffff;
-text-align: left;
+    text-align: left;
 }
 
-.nearinfo >li:not(:last-child) {
+.nearinfo>li:not(:last-child) {
     margin-bottom: 48px;
 }
 
 .logo2 {
     width: 38px;
     height: 43px;
-   padding-top: 45px;
-   padding-bottom: 153px;
+    padding-top: 45px;
+    padding-bottom: 153px;
 }
 
 .nearline1 {
@@ -490,7 +590,7 @@ footer {
 
 .footer_img {
     width: 138px;
-height: 332.58px;
+    height: 332.58px;
 }
 
 
@@ -585,8 +685,9 @@ height: 332.58px;
     height: 12px;
     opacity: 1;
     background: #FFFFFF;
-    ;}
+    ;
+}
 
-    .swiper-pagination-bullet-active {
-        background-color: #0EFFD4 !important;
-      }
+.swiper-pagination-bullet-active {
+    background-color: #0EFFD4 !important;
+}
