@@ -1,196 +1,103 @@
-* {
-    list-style: none;
-    text-decoration: none;
-    border-collapse: collapse;
-    margin: 0px;
-    padding: 0px;
-    color: black;
+@font-face {
+    font-family: 'Yu Mincho';
+    src: url(./font/yumin.woff);
+}
+
+body {
+    margin: 0;
+    padding: 0;
     position: relative;
 }
 
-body {background-color: white;
-}
-
-
-
-header {
-    position: relative;
-    display: flex;
+.container {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+    gap: 0px;
+    align-items: center;
     justify-content: center;
-    ;
+
+}
+
+.screen_left {
+    background-color: aqua;
+    position: relative;
+    filter: grayscale(100%);
+}
+
+.screen_left:hover {filter: grayscale(0%
+    );}
+
+.screen_right {
+    background-color: blueviolet;
+    filter: grayscale(100%);
+
+}
+
+.screen_right:hover {filter: grayscale(0%
+    );}
+
+.img {
+    width: 100%;
+    height: 100%;
+}
+
+.textbox_day {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.textbox_day h1 {
+    font-family: 'Yu Mincho';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 0%;
+    padding-top: 90px;
+    color: #FFFFFF;
+}
+
+.textbox_day h2 {
+    font-family: 'Yu Mincho';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: -200px;
+    padding-top: 24px;
+    color: #FFFFFF;
 }
 
 
-
-
-
-
-
-
-.header_img_day {
+.textbox_nig {
+    position: absolute;
+    text-align: center;
+    height: 100%;
     width: 100%;
 }
 
-
-.sec1 {
-    padding-top: 175px;
+.textbox_nig h1 {
+    font-family: 'Yu Mincho';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 0%;
+    padding-top: 755px;
+    color: #FFFFFF;
 }
 
-.text1 {
-    text-align: center;
+.textbox_nig h2 {
     font-family: 'Yu Mincho';
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
-    line-height: 160%;
-    /* or 48px */
-
-    text-align: center;
-
-    color: #000000;
+    line-height: -200px;
+    padding-top: 24px;
+    color: #FFFFFF;
 }
 
 
-.sec1_logo {
-    width: 38px;
-    height: 43px;
-}
-
-.logo_box {
-    display: flex;
-    justify-content: center;
-    height: 30px;
-    padding-top: 97px;
-}
-
-
-
-.text2 {
-    text-align: center;
-    font-family: 'Yu Mincho';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 320%;
-    /* or 32px */
-
-    text-align: center;
-    padding-top: 91px;
-}
-
-
-.daypic_box {
-    display: flex;
-    justify-content: center;
-}
-
-.daypic {
-    width: 818px;
-    height: 818px;
-}
-
-.sec2 {
-    padding-top: 195px;
-    padding-bottom: 195px;
-}
-
-.text3 {
-    font-family: 'Yu Mincho';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 320%;
-    /* or 32px */
-
-    text-align: center;
-
-    color: #000000;
-    padding-top: 195px;
-}
-
-.map {
-    display: flex;
-    justify-content: center;
-    ;
-}
-
-.daymap {
-    width: 1097px;
-    height: 855px;
-}
-
-.sec3 {
-    padding-bottom: 235px;
-    padding-top: 208px;
-
-}
-
-.sec3_logo {width: 31px;
-    height: 42px;
-}
-
-.text4 {
-    font-family: 'Yu Mincho';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 160%;
-    /* or 48px */
-
-    text-align: center;
-}
-
-
-
-.img_slide {
-    padding-top: 106px;
-    display: flex;
-    justify-content: center;
-    ;
-}
-
-.cardimg {
-    width: 328.84px;
-    height: 328.84px;
-}
-
-.img_slide>li:not(:last-child) {
-    margin-right: 19.15px;
-}
-
-.text5 {
-    position: absolute;
-    display: flex;
-    justify-content: right;
-    font-family: 'Yu Mincho';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 160%;    
-    text-align: right;
-    color: #000000;
-    right: 15%;
-    padding-top: 25px;
-}
-
-
-.logo_box2 {
-    display: flex;
-    justify-content: center;
-    height: 30px;
-    padding-top: 97px;
-    padding-bottom: 91px;
-}
-
-.slidebox {position: relative;
-}
-
-.swiper-container {
-    padding-left: 50px;
-    padding-right: 50px;
-}
-
-.swiper-button-next {position: absolute;
-right: 10%;}
-.swiper-button-prev {position: absolute;
-left: 10%;}
+   

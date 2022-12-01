@@ -1,0 +1,593 @@
+* {
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 0px;
+    color: black;
+    position: relative;
+}
+
+body {background-color: white;
+}
+
+
+
+header {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    ;
+}
+
+
+
+
+
+
+
+
+.header_img_day {
+    width: 100%;
+}
+
+
+.sec1 {
+    padding-top: 175px;
+}
+
+.text1 {
+    text-align: center;
+    font-family: 'Yu Mincho';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 160%;
+    /* or 48px */
+
+    text-align: center;
+
+    color: #000000;
+}
+
+
+.sec1_logo {
+    width: 38px;
+    height: 43px;
+}
+
+.logo_box {
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    padding-top: 97px;
+}
+
+
+
+.text2 {
+    text-align: center;
+    font-family: 'Yu Mincho';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 320%;
+    /* or 32px */
+
+    text-align: center;
+    padding-top: 91px;
+}
+
+
+.daypic_box {
+    display: flex;
+    justify-content: center;
+}
+
+.daypic {
+    width: 818px;
+    height: 818px;
+}
+
+.sec2 {
+    padding-top: 195px;
+    padding-bottom: 195px;
+}
+
+.text3 {
+    font-family: 'Yu Mincho';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 320%;
+    /* or 32px */
+
+    text-align: center;
+
+    color: #000000;
+    padding-top: 195px;
+}
+
+.map {
+    display: flex;
+    justify-content: center;
+    ;
+}
+
+.daymap {
+    width: 1097px;
+    height: 855px;
+}
+/* map에 justify-content: center; 부여, 나머지 건드린 거 없고 posit과 circle 위치를 left/bottom에서 right/top으로 바꿈 */
+
+
+.gang {
+    position: absolute;
+}
+
+.gangcolor {
+    display: none;
+    position: absolute;
+}
+
+.gang:hover+.gangcolor {
+    display: block;
+}
+
+.posit1 {
+    width: 160.5px;
+    height: 170px;
+    top: 630px;
+    right: 250px;
+    position: absolute;
+}
+
+.circle1 {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    right: 450px;
+    top: 600px;
+}
+
+.dang {
+    position: absolute;
+}
+
+.dangcolor {
+    display: none;
+    position: absolute;
+}
+
+.dang:hover+.dangcolor {
+    display: block;
+}
+
+.posit2 {
+    position: absolute;
+    width: 212.4px;
+    height: 173.25px;
+    right: 650px;
+    top: 300px;
+}
+
+.circle2 {
+    width: 18px;
+    height: 18px;
+    right: 560px;
+    top: 500px;
+    position: absolute;
+}
+
+.memo {
+    position: absolute;
+}
+
+.memocolor {
+    display: none;
+    position: absolute;
+}
+
+.memo:hover+.memocolor {
+    display: block;
+}
+
+.posit3 {
+    position: absolute;
+    width: 143px;
+    height: 160px;
+    right: 450px;
+    top: 10px;
+}
+
+.circle3 {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    right: 520px;
+    top: 380px;
+}
+
+.kim {
+    position: absolute;
+}
+
+.kimcolor {
+    display: none;
+    position: absolute;
+}
+
+.kim:hover+.kimcolor {
+    display: block;
+}
+
+.posit4 {
+    position: absolute;
+    width: 200px;
+    height: 170px;
+    right: 500px;
+    top: 650px;
+
+}
+
+.circle4 {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    right: 500px;
+    top: 650px;
+}
+
+.dagw {
+    position: absolute;
+}
+
+.dagwcolor {
+    display: none;
+    position: absolute;
+}
+
+.dagw:hover+.dagwcolor {
+    display: block;
+}
+
+.posit5 {
+    position: absolute;
+    width: 200px;
+    height: 180px;
+    right: 750px;
+    top: 680px;
+}
+
+.circle5 {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    right: 650px;
+    top: 620px;
+}
+
+.dam {
+    position: absolute;
+}
+
+.damcolor {
+    display: none;
+    position: absolute;
+}
+
+.dam:hover+.damcolor {
+    display: block;
+}
+
+.posit6 {
+    position: absolute;
+    width: 234px;
+    height: 230px;
+    top: 170px;
+    right: 130px;
+}
+
+.circle6 {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    right: 520px;
+    top: 520px;
+
+}
+
+.yard{
+    position: absolute;
+}
+
+.yardcolor {
+    display: none;
+    position: absolute;
+}
+
+.yard:hover+.yardcolor {
+    display: block;
+}
+
+.posit7 {
+    position: absolute;
+    width: 209px;
+    height: 165px;
+    right: 210px;
+    top: 420px;
+}
+
+.circle7 {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: 550px;
+    right: 510px;
+}
+
+.myo {
+    position: absolute;
+}
+
+.myocolor {
+    display: none;
+    position: absolute;
+}
+
+.myo:hover+.myocolor {
+    display: block;
+}
+
+.posit8 {
+    position: absolute;
+    width: 200px;
+    height: 230px;
+    top: 500px;
+    right: 1px;
+}
+
+.circle8 {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: 500px;
+    right: 440px;
+}
+
+.bull {
+    position: absolute;
+}
+
+.bullcolor {
+    display: none;
+    position: absolute;
+}
+
+.bull:hover+.bullcolor {
+    display: block;
+}
+
+.posit9 {
+    position: absolute;
+    width: 144px;
+    height: 180px;
+    top: 80px;
+    right: 650px
+}
+
+.circle9 {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: 200px;
+    right: 580px;
+}
+
+.suy {
+    position: absolute;
+}
+
+.suycolor {
+    display: none;
+    position: absolute;
+}
+
+.suy:hover+.suycolor {
+    display: block;
+}
+
+.posit10 {
+    position: absolute;
+    width: 198px;
+    height: 165px;
+    right: 200px;
+}
+
+.circle10 {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: 520px;
+    right: 485px;
+}
+
+.siru {
+    position: absolute;
+}
+
+.sirucolor {
+    display: none;
+    position: absolute;
+}
+
+.siru:hover+.sirucolor {
+    display: block;
+}
+
+.posit11 {
+    position: absolute;
+    width: 180px;
+    height: 200px;
+    top: 350px;
+    right: 900px;
+}
+
+.circle11 {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    right: 580px;
+    top: 530px;
+}
+
+.cha {
+    position: absolute;
+}
+
+.chacolor {
+    display: none;
+    position: absolute;
+}
+
+.cha:hover+.chacolor {
+    display: block;
+}
+
+.posit12 {
+    position: absolute;
+    width: 220px;
+    height: 132px;
+    top: 500px;
+    right: 665px;
+}
+
+.circle12 {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: 370px;
+    right: 560px;
+}
+
+.hap {
+    position: absolute;
+}
+
+.hapcolor {
+    display: none;
+    position: absolute;
+}
+
+.hap:hover+.hapcolor {
+    display: block;
+}
+
+.posit13 {
+    position: absolute;
+    width: 210px;
+    height: 210px;
+    top: 200px;
+    right: 400px;
+}
+
+.circle13 {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: 400px;
+    right: 530px;
+}
+
+
+.sec3 {
+    padding-bottom: 235px;
+    padding-top: 208px;
+
+}
+
+.sec3_logo {width: 31px;
+    height: 42px;
+}
+
+.text4 {
+    font-family: 'Yu Mincho';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 160%;
+    /* or 48px */
+
+    text-align: center;
+}
+
+
+
+.img_slide {
+    padding-top: 106px;
+    display: flex;
+    justify-content: center;
+    ;
+}
+
+.cardimg {
+    width: 328.84px;
+    height: 328.84px;
+}
+
+.img_slide>li:not(:last-child) {
+    margin-right: 19.15px;
+}
+
+.text5 {
+    position: absolute;
+    display: flex;
+    justify-content: right;
+    font-family: 'Yu Mincho';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;    
+    text-align: right;
+    color: #000000;
+    right: 15%;
+    padding-top: 25px;
+}
+
+
+.logo_box2 {
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    padding-top: 97px;
+    padding-bottom: 91px;
+}
+
+.slidebox {position: relative;
+}
+
+.swiper-container {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.swiper-button-next {position: absolute;
+right: 10%;}
+.swiper-button-prev {position: absolute;
+left: 10%;}
+
+
+.slide-in {
+    animation: change 0.5s ease forwards;
+  }
+  
+  @keyframes change {
+    from {
+      transform: translateX(-100%);
+      visibility: visible;
+    }
+  
+    to {
+      transform: translateX(0%);
+    }
+  }
