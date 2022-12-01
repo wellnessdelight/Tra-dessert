@@ -13,8 +13,9 @@
         
     <style>
         .swiper {
-            width: 100%;
-            height: 100%;
+            height: 638px;
+    width: 1020.8px;
+        
         }
 
         .swiper-slide {
@@ -71,7 +72,7 @@
                     <li class="home_menu"><a>ホーム</a>
                         <ul class="home_submenu">
                             <li><a href="../main_day_fade.html">お昼</a></li>
-                            <li><a href="../main_nig.html">酌</a></li>
+                            <li><a href="../main_nig.html">夜</a></li>
                         </ul>
                     </li>
                 </div>    
@@ -88,7 +89,6 @@
 
         <div class="maintext">
             <div class="textbox1">
-                <div id="slider">  
                     <div class="swiper mySwiper">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide"><img src="./img.d/doseulbak1.png"></div>
@@ -99,7 +99,7 @@
                       
                         <div class="swiper-pagination"></div>
                     </div>
-                </div>
+               
 
 
                 <p class="paragraph1">
@@ -119,7 +119,7 @@
                 <img src="./img.d/doseulbak_main.png" class="detailpic">
             </div>
 
-        <img src="./img.d/중간선.png" class="midline">
+            <img src="./img.d/midlinepng.png" class="midline">
 
             <div class="location">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3164.1810557659887!2d127.03320961495493!3d37.5272290798053!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca371df521ac3%3A0xc4a4fc9595f8f18f!2sDoseulbag!5e0!3m2!1sja!2skr!4v1669806369620!5m2!1sja!2skr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
@@ -199,16 +199,16 @@
 
     <script>
         var swiper = new Swiper(".mySwiper", {
-            slidesPerView: 1.3,
+            slidesPerView: 1.6,
             spaceBetween: 0,
 
-            speed: 3800,
+            speed: 3500,
 
 
             centeredSlides: true,
             autoplay: {
-                delay: 0,
-                reverseDirection: true,
+                delay: 1000,
+
                 disableOnInteraction: false
             },
             loop: true,   // 슬라이드 반복 여부
