@@ -49,7 +49,7 @@
 <body>
     <div class="header">
         <nav class="navbar">
-            <li class="navbar_menu"><a href="./middle/middleD.html">昼の甘さめぐり</a>
+            <li class="navbar_menu"><a>昼の甘さめぐり</a>
                 <ul class="navbar_submenu">
                     <li><a href="../detailD/detail_siru.html">シルケーキ</a></li>
                     <li><a href="../detailD/detail_gold.html">金玉堂</a></li>
@@ -70,8 +70,14 @@
                 </ul>
             </li>
             <div class="vl"></div>
-            <div class="home"><a href="../main_day.html">ホーム</a></div>
-
+            <div class="home">
+                <li class="home_menu"><a>ホーム</a>
+                    <ul class="home_submenu">
+                        <li><a href="../main_day.html">お昼</a></li>
+                        <li><a href="../main_nig_fade.html">酌</a></li>
+                    </ul>
+                </li>
+            </div>
         </nav>
 
     </div>
@@ -79,7 +85,7 @@
 
 
     <div class="titlesection">
-        <h3 class="oneline">‘隠れ名所のユニークなデザートグルメ’</h3>
+        <h3 class="oneline">‘穴場のユニークなデザート店’</h3>
         <div class="logobox"><img src="../img/logo_small.png" class="logo1"></div>
     </div>
 
@@ -96,18 +102,18 @@
                         <div class="swiper-slide"><img src="./img.d/bol3.png"></div>
                         <div class="swiper-slide"><img src="./img.d/bol4.png"></div>
                     </div>
-                    <div class="swiper-button-next"></div>
-                    <div class="swiper-button-prev"></div>
+            
                     <div class="swiper-pagination"></div>
                 </div>
             </div>
             <p class="paragraph1">
-
+                ソウルの隠れた韓屋村の名所、恩平韓屋村の中にあるデザート店で、独特のメニューが目を引く。ホットククロッフル、栗アイスクリーム、松ぼっくりキューブラテが最も人気のある代表メニューだ。甘栗アイスクリームは材料の特性上、季節限定メニューである。 手作りの栗ソースが入って香ばしくて甘い味が味わえる。 松ぼっくりキューブラテは、松ぼっくり状のコーヒーキューブに牛乳を注いで飲む独特な形のラテで、観光客が多くの写真を撮っていくメニューであり、味も素晴らしい。恩平韓屋村特有の静かな伝統的な雰囲気を感じながら、北漢山の美しい全景を一緒に鑑賞できるとても良い場所だ。
             </p>
         </div>
 
         <div class="textbox2">
-            <p class="paragraph2"></p>
+            <p class="paragraph2">美しい韓服を着て、この店のユニークなシグネチャーメニューである松ぼっくりキューブラテとホットククロフルを食べるユニークな経験をしてみよう。 韓国の代表的なストリートフードであるホットクと洋食であるクロッフルの調和、韓国でよく見られる松ぼっくりの形を利用したラテはとても魅力的だ。
+            </p>
         <img src="./img.d/bol_main.png" class="detailpic">
         </div>
 
@@ -197,14 +203,13 @@
             slidesPerView: 1.3,
             spaceBetween: 0,
 
-            speed: 3800,
+            speed: 3500,
 
 
             centeredSlides: true,
             autoplay: {
-                delay: 0,
+                delay: 3.5,
 
-                reverseDirection: true,
                 disableOnInteraction: false
             },
             loop: true,   // 슬라이드 반복 여부

@@ -49,7 +49,7 @@
 <body>
     <div class="header">
         <nav class="navbar">
-            <li class="navbar_menu"><a href="./middle/middleD.html">昼の甘さめぐり</a>
+            <li class="navbar_menu"><a>昼の甘さめぐり</a>
                 <ul class="navbar_submenu">
                     <li><a href="../detailD/detail_siru.html">シルケーキ</a></li>
                     <li><a href="../detailD/detail_gold.html">金玉堂</a></li>
@@ -70,8 +70,14 @@
                 </ul>
             </li>
             <div class="vl"></div>
-            <div class="home"><a href="../main_day.html">ホーム</a></div>
-
+            <div class="home">
+                <li class="home_menu"><a>ホーム</a>
+                    <ul class="home_submenu">
+                        <li><a href="../main_day.html">お昼</a></li>
+                        <li><a href="../main_nig_fade.html">酌</a></li>
+                    </ul>
+                </li>
+            </div>
         </nav>
 
     </div>
@@ -102,14 +108,13 @@
                 </div>
             </div>
             <p class="paragraph1">
-
+                「チャチャティクラブ」は用意された茶道具を利用して直接お茶を入れる体験ができるカフェである。 お茶に関心がない人も簡単に説明を聞いて淹れることができる。昌信洞店特有のアンティークなインテリアと落ち着いた雰囲気は完璧な撮影ホットプレース。 代表メニューには「茶席」というものがあり、白茶から青茶、紅茶、プーアル茶まで直接茶道具を使って厳選された葉茶を淹れて飲むことができる。 5回以上注いで飲むことができ、お願いすれば氷杯も提供する。代表デザートとしては、韓国の伝統料理である干し柿が入った干し柿チョコサラミ、黒米抹茶ケーキなどがある。
             </p>
         </div>
 
         <div class="textbox2">
             <p class="paragraph2">
-
-
+                代表メニュー「茶席」と一緒に干し柿チョコサラミがおすすめだ。 韓国では昔から柿を干して食べる文化があり、新しい食感と中毒性のある甘みが調和し、余韻を残すだろう？
             </p>
         <img src="./img.d/chacha_main.png" class="detailpic">
         </div>
@@ -200,14 +205,13 @@
             slidesPerView: 1.3,
             spaceBetween: 0,
 
-            speed: 3800,
+            speed: 3500,
 
 
             centeredSlides: true,
             autoplay: {
-                delay: 0,
+                delay: 3.5,
 
-                reverseDirection: true,
                 disableOnInteraction: false
             },
             loop: true,   // 슬라이드 반복 여부

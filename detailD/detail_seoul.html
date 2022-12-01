@@ -49,7 +49,7 @@
 <body>
     <div class="header">
         <nav class="navbar">
-            <li class="navbar_menu"><a href="./middle/middleD.html">昼の甘さめぐり</a>
+            <li class="navbar_menu"><a>昼の甘さめぐり</a>
                 <ul class="navbar_submenu">
                     <li><a href="../detailD/detail_siru.html">シルケーキ</a></li>
                     <li><a href="../detailD/detail_gold.html">金玉堂</a></li>
@@ -70,7 +70,14 @@
                 </ul>
             </li>
             <div class="vl"></div>
-            <div class="home"><a href="../main_day.html">ホーム</a></div>
+            <div class="home">
+                <li class="home_menu"><a>ホーム</a>
+                    <ul class="home_submenu">
+                        <li><a href="../main_day.html">お昼</a></li>
+                        <li><a href="../main_nig_fade.html">酌</a></li>
+                    </ul>
+                </li>
+            </div>
 
         </nav>
 
@@ -79,7 +86,7 @@
 
 
     <div class="titlesection">
-        <h3 class="oneline">‘過去の材料で醸したモダンな味’</h3>
+        <h3 class="oneline">‘過去の材料で醸しだすモダンな味’</h3>
         <div class="logobox"><img src="../img/logo_small.png" class="logo1"></div>
     </div>
 
@@ -96,20 +103,18 @@
                         <div class="swiper-slide"><img src="./img.d/seoul3.png"></div>
                         <div class="swiper-slide"><img src="./img.d/seoul4.png"></div>
                     </div>
-                    <div class="swiper-button-next"></div>
-                    <div class="swiper-button-prev"></div>
+                   
                     <div class="swiper-pagination"></div>
                 </div>
             </div>
             <p class="paragraph1">
-
+                小豆とよもぎ、黒ごまなどご年配の方々の好きそうな材料を主力に使うカフェがある。 ソウル聖水洞と松坡区ロッテワールドモールに位置する「ミョサソウル」だ。描写ソウルは韓国の伝統的なおやつを現代的に再解釈して披露しているが、そのビジュアルが目を引く。小豆やチョコレート、よもぎ、ビートなどで作ったようかん「アンキューブ」とともに、木モナカとフナモナカのどちらかを頼むのがおすすめだ。
             </p>
         </div>
 
         <div class="textbox2">
             <p class="paragraph2">
-
-
+                飲み物はコーヒーの種類も豊富だが、特別な味を望むなら「よもぎラテ」や「きな粉ラテ」、あるいは甘いソーダ味の「ポンタラテ」を飲むのが良い。そしてもう一つ、聖水店の場合、売り場の入り口が家のようになっているので、慌てないで。
             </p>
         <img src="./img.d/seoul_main.png" class="detailpic">
         </div>
@@ -200,14 +205,13 @@
             slidesPerView: 1.3,
             spaceBetween: 0,
 
-            speed: 3800,
+            speed: 3500,
 
 
             centeredSlides: true,
             autoplay: {
-                delay: 0,
+                delay: 3.5,
 
-                reverseDirection: true,
                 disableOnInteraction: false
             },
             loop: true,   // 슬라이드 반복 여부

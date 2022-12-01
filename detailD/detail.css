@@ -1,3 +1,17 @@
+body {
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
 @font-face {
     font-family: 'Yu Mincho';
     src: url(../font/yumin.woff);
@@ -30,7 +44,7 @@ body {
 .home {font-family: 'Yu Mincho';
     font-style: normal;
     font-weight: 400;
-    font-size: 30px;
+    font-size: 20px;
     line-height: 48px;}
 
 .headerimg {width: 100%;}
@@ -53,7 +67,7 @@ body {
     font-family: 'Yu Mincho';
     font-style: normal;
     font-weight: 400;
-    font-size: 30px;
+    font-size: 20px;
     line-height: 48px;
     text-align: right;
     text-transform: capitalize;
@@ -67,17 +81,17 @@ body {
     content: "";
     height: 2px;
     width: 0%;
-    background-color: #FFFFFF;
+    background-color: #000000;
     border-radius: 0px;
     transition: 0.3s;
     position: absolute;
     bottom: 0px;
     padding-left: 0;
-    right: 30%;
+    right: 25%;
 }
 
 .navbar_menu:hover::before {
-    width: 130px
+    width: 120px
 }
 
 .navbar_submenu {
@@ -91,7 +105,7 @@ body {
     right: 0px;
     background-color: rgba(255, 255, 255, 0.7);
     ;
-    width: 287px;
+    width: 225px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
 
 }
@@ -100,7 +114,7 @@ body {
     font-family: 'Yu Mincho';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 17px;
     line-height: 160%;
     color: #000000;
     padding: 7px 0px;
@@ -126,12 +140,90 @@ body {
     padding-left: 35px;
 }
 
-.homenig {
-    padding-left: 38px;
-    width: 47px;
+/*요요 */
+
+.home {
+    font-family: 'Yu Mincho';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 48px;
     height: 47px;
 }
 
+
+.home_menu a {
+    font-family: 'Yu Mincho';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 48px;
+    text-align: right;
+    text-transform: capitalize;
+    color: #000000;
+    ;
+}
+
+
+
+.home_menu::before {
+    content: "";
+    height: 2px;
+    width: 0%;
+    background-color: #FFFFFF;
+    border-radius: 0px;
+    transition: 0.3s;
+    position: absolute;
+    bottom: 0px;
+    padding-left: 0;
+    right: 25%;
+}
+
+.home_menu:hover::before {
+    width: 30px
+}
+
+
+.home_submenu {
+    position: absolute;
+    display: none;
+    list-style: none;
+    z-index: 5;
+    top: 50px;
+    border-radius: 10px;
+    padding-left: 0;
+    right: -30px;
+    background-color:  rgba(255, 255, 255, 0.7);
+    ;
+    width: 120px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+
+}
+
+.home_submenu a {
+    font-family: 'Yu Mincho';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 160%;
+    color: #000000;
+    padding: 7px 0px;
+    text-align: center;
+    display: block;
+}
+
+.home_menu:hover .home_submenu {
+    z-index: 5;
+    display: block;
+}
+
+.home_submenu a:hover {
+    background-color: #f1f1f1;
+    border-radius: 5px;
+
+}
+
+/*요요 */
 .topline {
     width: 100%;
     z-index: -1;

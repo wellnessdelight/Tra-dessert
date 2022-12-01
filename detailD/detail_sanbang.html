@@ -49,7 +49,7 @@
 <body>
     <div class="header">
         <nav class="navbar">
-            <li class="navbar_menu"><a href="./middle/middleD.html">昼の甘さめぐり</a>
+            <li class="navbar_menu"><a>昼の甘さめぐり</a>
                 <ul class="navbar_submenu">
                     <li><a href="../detailD/detail_siru.html">シルケーキ</a></li>
                     <li><a href="../detailD/detail_gold.html">金玉堂</a></li>
@@ -70,8 +70,14 @@
                 </ul>
             </li>
             <div class="vl"></div>
-            <div class="home"><a href="../main_day.html">ホーム</a></div>
-
+            <div class="home">
+                <li class="home_menu"><a>ホーム</a>
+                    <ul class="home_submenu">
+                        <li><a href="../main_day.html">お昼</a></li>
+                        <li><a href="../main_nig_fade.html">酌</a></li>
+                    </ul>
+                </li>
+            </div>
         </nav>
 
     </div>
@@ -102,14 +108,13 @@
                 </div>
             </div>
             <p class="paragraph1">
-
+                韓屋の美を鑑賞しながらゆったりとした時間を過ごしたいなら、城北洞のスヨン山房が最適だ。スヨン山房は本来小説家のイ·テジュンが住んでいたところで、1998年から喫茶店になった。 過去の姿がよく保存され、韓屋の趣を満喫することができる。喫茶店なのでナツメ茶、生姜茶なども有名だが、スヨン山房で必ず食べてみなければならない食べ物は他でもない「かぼちゃかき氷」だ。自然のかぼちゃと手作りあんこが作り出すほのかな甘みの調和にスプーンが止まらない。
             </p>
         </div>
 
         <div class="textbox2">
             <p class="paragraph2">
-
-
+                もし冷たいものが食べたくない日なら、「お母さんの手作りかぼちゃづくし」をおすすめする。 かぼちゃに各種ナッツ類とあんこ、餅が入った食べ物で、やはり誰からも好かれそうな味だ。
             </p>
         <img src="./img.d/sanbang_main.png" class="detailpic">
         </div>
@@ -200,14 +205,13 @@
             slidesPerView: 1.3,
             spaceBetween: 0,
 
-            speed: 3800,
+            speed: 3500,
 
 
             centeredSlides: true,
             autoplay: {
-                delay: 0,
+                delay: 3.5,
 
-                reverseDirection: true,
                 disableOnInteraction: false
             },
             loop: true,   // 슬라이드 반복 여부

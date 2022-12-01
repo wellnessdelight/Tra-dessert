@@ -49,7 +49,7 @@
 <body>
     <div class="header">
         <nav class="navbar">
-            <li class="navbar_menu"><a href="./middle/middleD.html">昼の甘さめぐり</a>
+            <li class="navbar_menu"><a>昼の甘さめぐり</a>
                 <ul class="navbar_submenu">
                     <li><a href="../detailD/detail_siru.html">シルケーキ</a></li>
                     <li><a href="../detailD/detail_gold.html">金玉堂</a></li>
@@ -70,8 +70,14 @@
                 </ul>
             </li>
             <div class="vl"></div>
-            <div class="home"><a href="../main_day.html">ホーム</a></div>
-
+            <div class="home">
+                <li class="home_menu"><a>ホーム</a>
+                    <ul class="home_submenu">
+                        <li><a href="../main_day.html">お昼</a></li>
+                        <li><a href="../main_nig_fade.html">酌</a></li>
+                    </ul>
+                </li>
+            </div>
         </nav>
 
     </div>
@@ -79,7 +85,7 @@
 
 
     <div class="titlesection">
-        <h3 class="oneline">‘粋な伝統を覚える’</h3>
+        <h3 class="oneline">‘粋な伝統を記憶する’</h3>
         <div class="logobox"><img src="../img/logo_small.png" class="logo1"></div>
     </div>
 
@@ -96,20 +102,18 @@
                         <div class="swiper-slide"><img src="./img.d/cafe3.png"></div>
                         <div class="swiper-slide"><img src="./img.d/cafe4.png"></div>
                     </div>
-                    <div class="swiper-button-next"></div>
-                    <div class="swiper-button-prev"></div>
+
                     <div class="swiper-pagination"></div>
                 </div>
             </div>
             <p class="paragraph1">
-
+                昌徳宮の近くにあるカフェで、昌徳宮の雰囲気にふさわしい素敵な韓屋の姿を誇る場所である。 「ㄱ」の字の韓屋の形を取ってカフェ記憶と名付けたが、このカフェを覚えてほしいという気持ちも込められているという。 カフェに入ると、色とりどりの布と伝統韓屋が目を引く。 代表メニューである生イチゴエイドと青蜜柑エイドは、それぞれ美肌、老化防止に効果がある飲み物だ。 周辺に昌徳宮、昌慶宮、仁寺洞など様々な伝統と関連した名所があるため、一緒に楽しめる最適な場所だ。
             </p>
         </div>
 
         <div class="textbox2">
             <p class="paragraph2">
-
-
+                色とりどりの布と伝統韓屋の前で写真を残してみよう。 韓国の伝統美を最も長く記憶できる場所になると思う。また、「茶道セット2人」メニューを注文すると、韓国の伝統ティーカップとともに伝統茶道の時間を過ごすことができる。 一度挑戦してみるのはいかがなものか。
             </p>
         <img src="./img.d/cafe_main.png" class="detailpic">
         </div>
@@ -199,14 +203,13 @@
             slidesPerView: 1.3,
             spaceBetween: 0,
 
-            speed: 3800,
+            speed: 3500,
 
 
             centeredSlides: true,
             autoplay: {
-                delay: 0,
+                delay: 3.5,
 
-                reverseDirection: true,
                 disableOnInteraction: false
             },
             loop: true,   // 슬라이드 반복 여부
