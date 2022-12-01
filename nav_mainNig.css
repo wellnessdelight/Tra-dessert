@@ -205,3 +205,9 @@ footer {
     color: #FFFFFF;
     opacity: 0.3;
 }
+
+.swiper-button-next {color: rgba(150, 150, 149, 0.5);}
+.swiper-button-next:hover {color: rgba(150, 150, 149, 1);}
+
+.swiper-button-prev {color: rgba(150, 150, 149, 0.5);}
+.swiper-button-prev:hover {color: rgba(150, 150, 149, 1);}

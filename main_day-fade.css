@@ -11,6 +11,19 @@
 body {background-color: #3F393B;
 }
 
+body {
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
 
 
 header {
@@ -123,6 +136,7 @@ header {
 
 .gang {
     position: absolute;
+    filter: grayscale(100%);
 }
 
 .gangcolor {
@@ -152,6 +166,7 @@ header {
 
 .dang {
     position: absolute;
+    filter: grayscale(100%);
 }
 
 .dangcolor {
@@ -181,6 +196,7 @@ header {
 
 .memo {
     position: absolute;
+    filter: grayscale(100%);
 }
 
 .memocolor {
@@ -210,6 +226,7 @@ header {
 
 .kim {
     position: absolute;
+    filter: grayscale(100%);
 }
 
 .kimcolor {
@@ -240,6 +257,7 @@ header {
 
 .dagw {
     position: absolute;
+    filter: grayscale(100%);
 }
 
 .dagwcolor {
@@ -269,6 +287,7 @@ header {
 
 .dam {
     position: absolute;
+    filter: grayscale(100%);
 }
 
 .damcolor {
@@ -299,6 +318,7 @@ header {
 
 .yard{
     position: absolute;
+    filter: grayscale(100%);
 }
 
 .yardcolor {
@@ -328,6 +348,7 @@ header {
 
 .myo {
     position: absolute;
+    filter: grayscale(100%);
 }
 
 .myocolor {
@@ -357,6 +378,7 @@ header {
 
 .bull {
     position: absolute;
+    filter: grayscale(100%);
 }
 
 .bullcolor {
@@ -386,6 +408,7 @@ header {
 
 .suy {
     position: absolute;
+    filter: grayscale(100%);
 }
 
 .suycolor {
@@ -414,6 +437,7 @@ header {
 
 .siru {
     position: absolute;
+    filter: grayscale(100%);
 }
 
 .sirucolor {
@@ -443,6 +467,7 @@ header {
 
 .cha {
     position: absolute;
+    filter: grayscale(100%);
 }
 
 .chacolor {
@@ -472,6 +497,7 @@ header {
 
 .hap {
     position: absolute;
+    filter: grayscale(100%);
 }
 
 .hapcolor {
@@ -500,11 +526,7 @@ header {
 }
 
 
-.sec3 {
-    padding-bottom: 235px;
-    padding-top: 208px;
 
-}
 
 .sec3_logo {width: 31px;
     height: 42px;
@@ -579,16 +601,3 @@ left: 10%;}
 
 .slide-in {background-color: white;}
 
-body {
-    animation: fadeInAnimation ease 3s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-}
-@keyframes fadeInAnimation {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
