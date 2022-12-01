@@ -47,7 +47,7 @@
     border-radius: 0px;
     transition: 0.3s;
     position:absolute;
-    bottom: 0px;
+    bottom: 5px;
     padding-left: 0;
     left: 30%;
 }
@@ -63,7 +63,7 @@
     border-radius: 10px;
     padding-left: 0;
     left: 0px;
-    background-color:rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.3)
     ;
     width: 287px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
@@ -76,7 +76,7 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 160%;
-    color: #000000;
+    color: #ffffff;
     padding: 7px 0px;
     text-align: center;
     display: block;
@@ -88,7 +88,7 @@
 }
 
 .navbar_submenu a:hover {
-    background-color: #f1f1f1;
+    background-color: rgba(149, 142, 144, 1);
     border-radius: 5px;
 
 }
@@ -206,8 +206,8 @@ footer {
     opacity: 0.3;
 }
 
-.swiper-button-next {color: rgba(150, 150, 149, 0.5);}
-.swiper-button-next:hover {color: rgba(150, 150, 149, 1);}
+.swiper-button-next {color: rgba(255, 255, 255, 0.6);}
+.swiper-button-next:hover {color: rgba(255, 255, 255, 1);}
 
-.swiper-button-prev {color: rgba(150, 150, 149, 0.5);}
-.swiper-button-prev:hover {color: rgba(150, 150, 149, 1);}
+.swiper-button-prev {color: rgba(255, 255, 255, 0.6);}
+.swiper-button-prev:hover {color: rgba(255, 255, 255, 1);}
