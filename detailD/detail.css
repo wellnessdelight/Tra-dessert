@@ -59,10 +59,26 @@ body {
     display: flex;
 }
 
+.logobox_top {position: absolute;
+left: 45px;
+text-align: center;
+display: flex;
+font-family: 'Yu Mincho';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 48px;
+    color: #000000;
+}
+
+.logo_top {width: 48px;
+    padding-right: 20px;
+}
 
 .navbar_menu {
     display: flex;
     padding-right: 35px;
+    
 }
 
 .navbar_menu a {
@@ -101,7 +117,7 @@ body {
     display: none;
     list-style: none;
     z-index: 5;
-    top: 50px;
+    top: 48px;
     border-radius: 10px;
     padding-left: 0;
     right: 0px;
@@ -191,7 +207,7 @@ body {
     display: none;
     list-style: none;
     z-index: 5;
-    top: 50px;
+    top: 48px;
     border-radius: 10px;
     padding-left: 0;
     right: -30px;
