@@ -8,9 +8,23 @@
     position: relative;
 }
 
+.slide-in {
+    animation: change 0.5s ease forwards;
+  }
+  
+  @keyframes change {
+    from {
+      transform: translateX(100%);
+      visibility: visible;
+    }
+  
+    to {
+      transform: translateX(0%);
+    }
+  }
 
 body{background-color: #3F393B;}
-     
+
 
 header {
     position: relative;
@@ -146,8 +160,8 @@ height: 43.5px;
     position: absolute;
     width: 18px;
     height: 18px;
-    right: 491px;
-    top: 435px;
+    right: 461px;
+    top: 415px;
 }
 
 .woo {
@@ -168,15 +182,15 @@ height: 43.5px;
     position: absolute;
     width: 212.4px;
     height: 173.25px;
-    right: 680px;
+    right: 630px;
     top: 345px;
 }
 
 .circle2 {
     width: 18px;
     height: 18px;
-    right: 511px;
-    top: 485px;
+    right: 485px;
+    top: 455px;
     position: absolute;
 }
 
@@ -207,8 +221,8 @@ height: 43.5px;
     position: absolute;
     width: 18px;
     height: 18px;
-    right: 461px;
-    top: 445px;
+    right: 439px;
+    top: 425px;
 }
 
 .back {
@@ -239,8 +253,8 @@ height: 43.5px;
     position: absolute;
     width: 18px;
     height: 18px;
-    right: 431px;
-    top: 445px;
+    right: 421px;
+    top: 420px;
 }
 
 .on {
@@ -268,8 +282,8 @@ height: 43.5px;
     position: absolute;
     width: 18px;
     height: 18px;
-    right: 481px;
-    top: 335px;
+    right: 440px;
+    top: 315px;
 }
 
 .park {
@@ -298,8 +312,8 @@ height: 43.5px;
     position: absolute;
     width: 18px;
     height: 18px;
-    top: 490px;
-    right: 350px;
+    top: 460px;
+    right: 329px;
 
 }
 
@@ -329,8 +343,8 @@ height: 43.5px;
     position: absolute;
     width: 18px;
     height: 18px;
-    top: 530px;
-    right: 315px;
+    top: 480px;
+    right: 310px;
 }
 
 .jac {
@@ -359,8 +373,8 @@ height: 43.5px;
     position: absolute;
     width: 18px;
     height: 18px;
-    top: 550px;
-    right: 335px;
+    top: 505px;
+    right: 320px;
 }
 
 .jangsang {
@@ -389,8 +403,8 @@ height: 43.5px;
     position: absolute;
     width: 18px;
     height: 18px;
-    top: 530px;
-    right: 360px;
+    top: 500px;
+    right: 350px;
 }
 
 .joseon {
@@ -419,10 +433,9 @@ height: 43.5px;
     position: absolute;
     width: 18px;
     height: 18px;
-    top: 610px;
+    top: 580px;
     right: 551px;
 }
-
 
 .sec3 {
     padding-top: 208px;
@@ -503,18 +516,3 @@ height: 43px;
 right: 10%;}
 .swiper-button-prev {position: absolute;
 left: 10%;}
-
-.slide-in {
-    animation: change 0.5s ease forwards;
-  }
-  
-  @keyframes change {
-    from {
-      transform: translateX(100%);
-      visibility: visible;
-    }
-  
-    to {
-      transform: translateX(0%);
-    }
-  }
