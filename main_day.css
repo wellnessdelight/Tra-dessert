@@ -126,15 +126,14 @@ header {
 .map {
     display: flex;
     justify-content: center;
-    ;
+
 }
 
 .daymap {
-    width: 1097px;
-    height: 855px;
+    width: 932px;
+    height: 726px;
 }
 /* map에 justify-content: center; 부여, 나머지 건드린 거 없고 posit과 circle 위치를 left/bottom에서 right/top으로 바꿈 */
-
 
 .gang {
     position: absolute;
@@ -144,6 +143,7 @@ header {
 .gangcolor {
     display: none;
     position: absolute;
+
 }
 
 .gang:hover+.gangcolor {
@@ -151,10 +151,10 @@ header {
 }
 
 .posit1 {
-    width: 160.5px;
-    height: 170px;
-    top: 630px;
-    right: 250px;
+    width: 144px;
+    height: 153px;
+    top: 530px;
+    right: 230px;
     position: absolute;
 }
 
@@ -162,8 +162,8 @@ header {
     position: absolute;
     width: 18px;
     height: 18px;
-    right: 450px;
-    top: 600px;
+    right: 375px;
+    top: 495px;
 }
 
 .dang {
@@ -182,17 +182,17 @@ header {
 
 .posit2 {
     position: absolute;
-    width: 212.4px;
-    height: 173.25px;
-    right: 650px;
-    top: 300px;
+    width: 189px;
+    height: 156.25px;
+    right: 490px;
+    top: 240px;
 }
 
 .circle2 {
     width: 18px;
     height: 18px;
-    right: 560px;
-    top: 500px;
+    right: 460px;
+    top: 420px;
     position: absolute;
 }
 
@@ -212,18 +212,18 @@ header {
 
 .posit3 {
     position: absolute;
-    width: 143px;
-    height: 160px;
-    right: 450px;
-    top: 10px;
+    width: 129px;
+    height: 144px;
+    right: 400px;
+    top: 1px;
 }
 
 .circle3 {
     position: absolute;
     width: 18px;
     height: 18px;
-    right: 520px;
-    top: 380px;
+    right: 420px;
+    top: 300px;
 }
 
 .kim {
@@ -242,10 +242,10 @@ header {
 
 .posit4 {
     position: absolute;
-    width: 200px;
-    height: 170px;
-    right: 500px;
-    top: 650px;
+    width: 180px;
+    height: 153px;
+    right: 400px;
+    top: 600px;
 
 }
 
@@ -253,8 +253,8 @@ header {
     position: absolute;
     width: 18px;
     height: 18px;
-    right: 500px;
-    top: 650px;
+    right: 420px;
+    top: 530px;
 }
 
 .dagw {
@@ -273,18 +273,18 @@ header {
 
 .posit5 {
     position: absolute;
-    width: 200px;
-    height: 180px;
-    right: 750px;
-    top: 680px;
+    width: 180px;
+    height: 162px;
+    right: 650px;
+    top: 550px;
 }
 
 .circle5 {
     position: absolute;
     width: 18px;
     height: 18px;
-    right: 650px;
-    top: 620px;
+    right: 560px;
+    top: 530px;
 }
 
 .dam {
@@ -303,18 +303,18 @@ header {
 
 .posit6 {
     position: absolute;
-    width: 234px;
-    height: 230px;
-    top: 170px;
-    right: 130px;
+    width: 211px;
+    height: 207px;
+    top: 120px;
+    right: 30px;
 }
 
 .circle6 {
     position: absolute;
     width: 18px;
     height: 18px;
-    right: 520px;
-    top: 520px;
+    right: 450px;
+    top: 440px;
 
 }
 
@@ -334,18 +334,18 @@ header {
 
 .posit7 {
     position: absolute;
-    width: 209px;
-    height: 165px;
-    right: 210px;
-    top: 420px;
+    width: 170px;
+    height: 150px;
+    right: 150px;
+    top: 320px;
 }
 
 .circle7 {
     position: absolute;
     width: 18px;
     height: 18px;
-    top: 550px;
-    right: 510px;
+    top: 450px;
+    right: 410px;
 }
 
 .myo {
@@ -364,9 +364,9 @@ header {
 
 .posit8 {
     position: absolute;
-    width: 200px;
-    height: 230px;
-    top: 500px;
+    width: 180px;
+    height: 210px;
+    top: 450px;
     right: 1px;
 }
 
@@ -374,8 +374,8 @@ header {
     position: absolute;
     width: 18px;
     height: 18px;
-    top: 500px;
-    right: 440px;
+    top: 400px;
+    right: 340px;
 }
 
 .bull {
@@ -394,18 +394,18 @@ header {
 
 .posit9 {
     position: absolute;
-    width: 144px;
-    height: 180px;
-    top: 80px;
-    right: 650px
+    width: 130px;
+    height: 162px;
+    top: 70px;
+    right: 590px
 }
 
 .circle9 {
     position: absolute;
     width: 18px;
     height: 18px;
-    top: 200px;
-    right: 580px;
+    top: 180px;
+    right: 520px;
 }
 
 .suy {
@@ -424,17 +424,17 @@ header {
 
 .posit10 {
     position: absolute;
-    width: 198px;
-    height: 165px;
-    right: 200px;
+    width: 180px;
+    height: 150px;
+    right: 150px;
 }
 
 .circle10 {
     position: absolute;
     width: 18px;
     height: 18px;
-    top: 520px;
-    right: 485px;
+    top: 430px;
+    right: 405px;
 }
 
 .siru {
@@ -453,18 +453,18 @@ header {
 
 .posit11 {
     position: absolute;
-    width: 180px;
-    height: 200px;
-    top: 350px;
-    right: 900px;
+    width: 162px;
+    height: 180px;
+    top: 300px;
+    right: 820px;
 }
 
 .circle11 {
     position: absolute;
     width: 18px;
     height: 18px;
-    right: 580px;
-    top: 530px;
+    right: 480px;
+    top: 460px;
 }
 
 .cha {
@@ -483,18 +483,18 @@ header {
 
 .posit12 {
     position: absolute;
-    width: 220px;
-    height: 132px;
-    top: 500px;
-    right: 665px;
+    width: 198px;
+    height: 109px;
+    top: 400px;
+    right: 565px;
 }
 
 .circle12 {
     position: absolute;
     width: 18px;
     height: 18px;
-    top: 370px;
-    right: 560px;
+    top: 290px;
+    right: 460px;
 }
 
 .hap {
@@ -513,19 +513,21 @@ header {
 
 .posit13 {
     position: absolute;
-    width: 210px;
-    height: 210px;
-    top: 200px;
-    right: 400px;
+    width: 189px;
+    height: 189px;
+    top: 130px;
+    right: 300px;
 }
 
 .circle13 {
     position: absolute;
     width: 18px;
     height: 18px;
-    top: 400px;
-    right: 530px;
+    top: 320px;
+    right: 430px;
 }
+
+
 
 
 .sec3 {

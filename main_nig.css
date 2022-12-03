@@ -116,14 +116,17 @@ height: 43.5px;
     padding-top: 195px;
 }
 
+/* map에 justify-content: center; 부여, 나머지 건드린 거 없고 posit과 circle 위치를 left/bottom에서 right/top으로 바꿈 */
+
 .map {
     display: flex;
     justify-content: center;
 }
 
+
 .nightmap {
-    width: 1097px;
-    height: 855px;
+    width: 932px;
+    height: 726px;
 }
 
 
@@ -145,8 +148,8 @@ height: 43.5px;
 .posit1 {
     width: 110px;
     height: 190px;
-    right: 680px;
-    top: 200px;
+    right: 600px;
+    top: 135px;
     position: absolute;
 }
 
@@ -154,8 +157,8 @@ height: 43.5px;
     position: absolute;
     width: 18px;
     height: 18px;
-    right: 550px;
-    top: 490px;
+    right: 491px;
+    top: 435px;
 }
 
 .woo {
@@ -176,15 +179,15 @@ height: 43.5px;
     position: absolute;
     width: 212.4px;
     height: 173.25px;
-    right: 730px;
-    top: 420px;
+    right: 680px;
+    top: 345px;
 }
 
 .circle2 {
     width: 18px;
     height: 18px;
-    right: 580px;
-    top: 530px;
+    right: 511px;
+    top: 485px;
     position: absolute;
 }
 
@@ -206,8 +209,8 @@ height: 43.5px;
     position: absolute;
     width: 188px;
     height: 134.75px;
-    right: 450px;
-    top: 200px;
+    right: 371px;
+    top: 175px;
 
 }
 
@@ -215,8 +218,8 @@ height: 43.5px;
     position: absolute;
     width: 18px;
     height: 18px;
-    right: 520px;
-    top: 500px;
+    right: 461px;
+    top: 445px;
 }
 
 .back {
@@ -237,8 +240,8 @@ height: 43.5px;
     position: absolute;
     width: 197px;
     height: 197px;
-    right: 150px;
-    top: 80px;
+    right: 80px;
+    top: 120px;
     transform: rotate(13.56deg);
 
 }
@@ -247,8 +250,8 @@ height: 43.5px;
     position: absolute;
     width: 18px;
     height: 18px;
-    right: 490px;
-    top: 500px;
+    right: 431px;
+    top: 445px;
 }
 
 .on {
@@ -269,15 +272,15 @@ height: 43.5px;
     position: absolute;
     width: 224.1px;
     height: 172.8px;
-    right: 340px;
+    right: 231px;
 }
 
 .circle5 {
     position: absolute;
     width: 18px;
     height: 18px;
-    right: 520px;
-    top: 380px;
+    right: 481px;
+    top: 335px;
 }
 
 .park {
@@ -298,16 +301,16 @@ height: 43.5px;
     position: absolute;
     width: 210.375px;
     height: 117.75px;
-    top: 300px;
-    right: 220px;
+    top: 350px;
+    right: 171px;
 }
 
 .circle6 {
     position: absolute;
     width: 18px;
     height: 18px;
-    top: 545px;
-    right: 395px;
+    top: 490px;
+    right: 350px;
 
 }
 
@@ -329,16 +332,16 @@ height: 43.5px;
     position: absolute;
     width: 123.5px;
     height: 229px;
-    right: 240px;
-    top: 450px;
+    right: 1px;
+    top: 330px;
 }
 
 .circle7 {
     position: absolute;
     width: 18px;
     height: 18px;
-    top: 560px;
-    right: 375px;
+    top: 530px;
+    right: 315px;
 }
 
 .jac {
@@ -359,16 +362,16 @@ height: 43.5px;
     position: absolute;
     width: 163px;
     height: 230px;
-    top: 600px;
-    right: 30px;
+    top: 520px;
+    right: 120px;
 }
 
 .circle8 {
     position: absolute;
     width: 18px;
     height: 18px;
-    top: 585px;
-    right: 385px;
+    top: 550px;
+    right: 335px;
 }
 
 .jangsang {
@@ -389,16 +392,16 @@ height: 43.5px;
     position: absolute;
     width: 181.2px;
     height: 227.4px;
-    top: 680px;
-    right: 380px
+    top: 550px;
+    right: 355px
 }
 
 .circle9 {
     position: absolute;
     width: 18px;
     height: 18px;
-    top: 585px;
-    right: 410px;
+    top: 530px;
+    right: 360px;
 }
 
 .joseon {
@@ -419,18 +422,17 @@ height: 43.5px;
     position: absolute;
     width: 199px;
     height: 185px;
-    top: 680px;
-    right: 650px;
+    top: 555px;
+    right: 580px;
 }
 
 .circle10 {
     position: absolute;
     width: 18px;
     height: 18px;
-    top: 680px;
-    right: 600px;
+    top: 610px;
+    right: 551px;
 }
-
 
 .sec3 {
     padding-top: 208px;

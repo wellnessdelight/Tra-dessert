@@ -211,3 +211,7 @@ footer {
 
 .swiper-button-prev {color: rgba(255, 255, 255, 0.6);}
 .swiper-button-prev:hover {color: rgba(255, 255, 255, 1);}
+
+.swiper-slide {background-color: #3F393B !important;}
+
+
