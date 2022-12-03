@@ -8,6 +8,10 @@
     position: relative;
 }
 
+
+body{background-color: #3F393B;}
+     
+
 header {
     position: relative;
     display: flex;
