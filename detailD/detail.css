@@ -528,6 +528,7 @@ margin: auto;
 }
 
 .mainhomepage {
+        width: 1000px;
     padding-top: 34px;
     text-align: left;
     font-family: 'Yu Mincho';
