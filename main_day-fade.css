@@ -149,10 +149,10 @@ header {
 }
 
 .posit1 {
-    width: 144px;
-    height: 153px;
+    width: 153px;
+    height: 144px;
     top: 530px;
-    right: 230px;
+    right: 240px;
     position: absolute;
 }
 
@@ -210,7 +210,7 @@ header {
 
 .posit3 {
     position: absolute;
-    width: 129px;
+    width: 150px;
     height: 144px;
     right: 400px;
     top: 1px;
@@ -362,8 +362,8 @@ header {
 
 .posit8 {
     position: absolute;
-    width: 180px;
-    height: 210px;
+    width: 232px;
+    height: 184px;
     top: 450px;
     right: 1px;
 }
