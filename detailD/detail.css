@@ -475,6 +475,29 @@ margin: auto;
 
 }
 
+.mapbox a { text-align: left;
+    font-family: 'Yu Mincho';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    align-items: center;
+    text-transform: uppercase;
+
+    color: #000000;}
+
+
+.nearplace a { text-align: left;
+    font-family: 'Yu Mincho';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    align-items: center;
+    text-transform: uppercase;
+
+    color: #000000;}
+
 .addressmain {
 
     text-align: left;
