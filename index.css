@@ -78,7 +78,17 @@ color: #970A20;}
     font-weight: 400;
     font-size: 30px;
     line-height: 48px;
-    writing-mode: vertical-lr;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.135em;
+    text-transform: uppercase;
+    
+    color: #970A20;
+
+position: absolute;
+left: 15px;
+padding-bottom: 170px;
 }
 
 .titlebox_nig {
