@@ -150,6 +150,17 @@ height: 43.5px;
     display: block;
 }
 
+.test1{
+    width: 110px;
+    height: 190px;
+}
+
+.position1{
+    right: 600px;
+    top: 135px;
+    position: absolute;
+}
+
 .posit1 {
     width: 110px;
     height: 190px;
@@ -180,6 +191,17 @@ height: 43.5px;
     display: block;
 }
 
+.test2{
+    width: 212.4px;
+    height: 173.25px;
+}
+
+.position2{
+    right: 630px;
+    top: 345px;
+    position: absolute;
+}
+
 .posit2 {
     position: absolute;
     width: 212.4px;
@@ -208,6 +230,17 @@ height: 43.5px;
 
 .tree:hover+.treecolor {
     display: block;
+}
+
+.test3{
+    width: 188px;
+    height: 134.75px;
+}
+
+.position3{
+    right: 371px;
+    top: 175px;
+    position: absolute;
 }
 
 .posit3 {
@@ -241,6 +274,19 @@ height: 43.5px;
     display: block;
 }
 
+.test4{
+    width: 197px;
+    height: 197px;
+    transform: rotate(13.56deg);
+}
+
+.position4{
+    right: 80px;
+    top: 120px;
+    position: absolute;
+}
+
+
 .posit4 {
     position: absolute;
     width: 197px;
@@ -273,6 +319,17 @@ height: 43.5px;
     display: block;
 }
 
+.test5{
+    width: 224.1px;
+    height: 172.8px;
+}
+
+.position5{
+    right: 231px;
+    position: absolute;
+}
+
+
 .posit5 {
     position: absolute;
     width: 224.1px;
@@ -300,6 +357,17 @@ height: 43.5px;
 
 .park:hover+.parkcolor {
     display: block;
+}
+
+.test6{
+    width: 210.375px;
+    height: 117.75px;
+}
+
+.position6{
+    top: 350px;
+    right: 171px;
+    position: absolute;
 }
 
 .posit6 {
@@ -333,6 +401,17 @@ height: 43.5px;
     display: block;
 }
 
+.test7{
+    width: 123.5px;
+    height: 229px;
+}
+
+.position7{
+    right: 1px;
+    top: 330px;
+    position: absolute;
+}
+
 .posit7 {
     position: absolute;
     width: 123.5px;
@@ -363,12 +442,23 @@ height: 43.5px;
     display: block;
 }
 
+.test8{
+    width: 163px;
+    height: 230px;
+}
+
+.position8{
+    top: 520px;
+    right: 150px;
+    position: absolute;
+}
+
 .posit8 {
     position: absolute;
     width: 163px;
     height: 230px;
     top: 520px;
-    right: 120px;
+    right: 150px;
 }
 
 .circle8 {
@@ -391,6 +481,17 @@ height: 43.5px;
 
 .jangsang:hover+.jangsangcolor {
     display: block;
+}
+
+.test9{
+    width: 181.2px;
+    height: 227.4px;
+}
+
+.position9{
+    top: 550px;
+    right: 355px;
+    position: absolute;
 }
 
 .posit9 {
@@ -423,6 +524,17 @@ height: 43.5px;
     display: block;
 }
 
+.test10{
+    width: 199px;
+    height: 185px;
+}
+
+.position10{
+    top: 555px;
+    right: 580px;
+    position: absolute;
+}
+
 .posit10 {
     position: absolute;
     width: 199px;
@@ -438,7 +550,6 @@ height: 43.5px;
     top: 580px;
     right: 551px;
 }
-
 .sec3 {
     padding-top: 208px;
     padding-bottom: 235px;

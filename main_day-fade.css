@@ -148,12 +148,20 @@ header {
     display: block;
 }
 
+.test1{
+    width: 153px;
+    height: 144px;
+}
+
+.position1{
+    top: 530px;
+    right: 230px;
+    position: absolute;
+}
+
 .posit1 {
     width: 153px;
     height: 144px;
-    top: 530px;
-    right: 240px;
-    position: absolute;
 }
 
 .circle1 {
@@ -174,8 +182,24 @@ header {
     position: absolute;
 }
 
+/* .dang:hover{
+    display: block;
+    filter: grayscale(0%);
+} */
+
 .dang:hover+.dangcolor {
     display: block;
+}
+
+.test2{
+    width: 189px;
+    height: 156.25px;
+}
+
+.position2{
+    right: 490px;
+    top: 240px;
+    position: absolute;
 }
 
 .posit2 {
@@ -206,6 +230,18 @@ header {
 
 .memo:hover+.memocolor {
     display: block;
+    filter: grayscale(0%);
+}
+
+.test3{
+    width: 150px;
+    height: 144px;
+}
+
+.position3{
+    right: 400px;
+    top: 1px;
+    position: absolute;
 }
 
 .posit3 {
@@ -236,6 +272,17 @@ header {
 
 .kim:hover+.kimcolor {
     display: block;
+}
+
+.test4{
+    width: 180px;
+    height: 153px;
+}
+
+.position4{
+    right: 400px;
+    top: 600px;
+    position: absolute;
 }
 
 .posit4 {
@@ -269,6 +316,17 @@ header {
     display: block;
 }
 
+.test5{
+    width: 180px;
+    height: 162px;
+}
+
+.position5{
+    right: 650px;
+    top: 550px;
+    position: absolute;
+}
+
 .posit5 {
     position: absolute;
     width: 180px;
@@ -297,6 +355,17 @@ header {
 
 .dam:hover+.damcolor {
     display: block;
+}
+
+.test6{
+    width: 211px;
+    height: 207px;
+}
+
+.position6{
+    top: 120px;
+    right: 30px;
+    position: absolute;
 }
 
 .posit6 {
@@ -330,6 +399,17 @@ header {
     display: block;
 }
 
+.test7{
+    width: 170px;
+    height: 150px;
+}
+
+.position7{
+    right: 150px;
+    top: 320px;
+    position: absolute;
+}
+
 .posit7 {
     position: absolute;
     width: 170px;
@@ -358,6 +438,17 @@ header {
 
 .myo:hover+.myocolor {
     display: block;
+}
+
+.test8{
+    width: 232px;
+    height: 184px;
+}
+
+.position8{
+    top: 450px;
+    right: 1px;
+    position: absolute;
 }
 
 .posit8 {
@@ -390,6 +481,17 @@ header {
     display: block;
 }
 
+.test9{
+    width: 154px;
+    height: 136px;
+}
+
+.position9{
+    top: 70px;
+    right: 590px;
+    position: absolute;
+}
+
 .posit9 {
     position: absolute;
     width: 154px;
@@ -420,6 +522,16 @@ header {
     display: block;
 }
 
+.test10{
+    width: 180px;
+    height: 150px;
+}
+
+.position10{
+    right: 150px;
+    position: absolute;
+}
+
 .posit10 {
     position: absolute;
     width: 180px;
@@ -447,6 +559,17 @@ header {
 
 .siru:hover+.sirucolor {
     display: block;
+}
+
+.test11{
+    width: 162px;
+    height: 180px;
+}
+
+.position11{
+    top: 300px;
+    right: 820px;
+    position: absolute;
 }
 
 .posit11 {
@@ -479,6 +602,17 @@ header {
     display: block;
 }
 
+.test12{
+    width: 198px;
+    height: 109px;
+}
+
+.position12{
+    top: 400px;
+    right: 565px;
+    position: absolute;
+}
+
 .posit12 {
     position: absolute;
     width: 198px;
@@ -509,6 +643,18 @@ header {
     display: block;
 }
 
+.test13{
+    width: 189px;
+    height: 189px;
+}
+
+.position13{
+    top: 130px;
+    right: 300px;
+    position: absolute;
+}
+
+
 .posit13 {
     position: absolute;
     width: 189px;
@@ -524,6 +670,7 @@ header {
     top: 320px;
     right: 430px;
 }
+
 
 
 
