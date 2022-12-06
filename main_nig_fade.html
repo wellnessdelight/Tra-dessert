@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="https://kit.fontawesome.com/dd6c9edd18.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="main_nig_fade.css">
     <link rel="stylesheet" href="nav_mainNig.css">
 
@@ -49,8 +50,29 @@
 </head>
 
 <body>
-    <style>
-    </style>
+
+    <a id="topBtn" href="#"><span class='fa-stack fa-lg'>
+        <i class='fa fa-circle fa-stack-2x'  style="color:#201d1e
+        "></i>
+        <i class='fa fa-angle-double-up fa-stack-1x fa-inverse'></i>
+</span></a>
+
+<script>$(function() { // 보이기 | 숨기기
+    $(window).scroll(function() {
+    if ($(this).scrollTop() > 250) { //250 넘으면 버튼이 보여짐니다. 
+      $('#topBtn').fadeIn();
+    } else {
+      $('#topBtn').fadeOut();
+    }
+  }); // 버튼 클릭시 
+  $("#topBtn").click(function() { 
+      $('html, body').animate({ scrollTop : 0 // 0 까지 animation 이동합니다. 
+      }, 400); // 속도 400 
+      return false; 
+  }); 
+});</script>
+
+
     <div class="slide-in">
         <header>
             <img src="./img.n/top_N.png" class="header_img_night">
